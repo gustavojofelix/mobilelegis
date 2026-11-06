@@ -1,0 +1,34 @@
+[
+  {
+    "id": "u-001",
+    "name": "Cláudio Nelasi",
+    "email": "claudio.nelasi@gmail.com",
+    "password": "1234",
+    "phone": "841234567",
+    "profession": "Jurista",
+    "qualifications": "Licenciatura",
+    "company": "Empresa Exemplo, Lda",
+    "birthDate": "1990-01-01",
+    "country": "Moçambique",
+    "city": "Maputo",
+    "address": "Av. Exemplo, n.º 100",
+    "postalCode": "1100",
+    "nuit": "400000001",
+    "createdAt": "2026-10-28",
+    "trialStart": "2026-10-28",
+    "trialAreas": ["civil-penal-adm", "aduaneira", "energia", "actividades", "infra", "saude"],
+    "purchases": ["lei-13-2023"],
+    "cart": [],
+    "favorites": ["lei-1-2018"],
+    "devices": [
+      { "id": "d1", "platform": "Windows", "platformVersion": "10.0", "browser": "Chrome", "browserVersion": "131.0.0.0", "type": "Desktop", "lastSeen": "2026-11-06T09:12:00", "current": true },
+      { "id": "d2", "platform": "Android", "platformVersion": "14", "browser": "Chrome", "browserVersion": "130.0.0.0", "type": "Mobile", "lastSeen": "2026-11-05T18:40:00" }
+    ],
+    "transactions": [
+      { "id": "t1", "date": "2026-10-29T10:15:00", "description": "Lei do Trabalho - Lei n.º 13/2023, de 25 de Agosto", "amount": 360, "method": "mpesa", "phone": "841234567", "invoice": "FT 2026/1042", "paysuiteRef": "PS-8F3K2Q", "voucher": "LEGIS10" }
+    ],
+    "annotations": {
+      "lei-13-2023#art-47": "Confirmar se o período probatório se aplica ao contrato do cliente (técnico superior: 180 dias)."
+    }
+  }
+]

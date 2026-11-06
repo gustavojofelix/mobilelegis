@@ -1,0 +1,5 @@
+[
+  { "code": "pt", "label": "Português", "locale": "pt-PT" },
+  { "code": "en", "label": "English", "locale": "en-GB" },
+  { "code": "fr", "label": "Français", "locale": "fr-FR" }
+]

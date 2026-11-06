@@ -1,0 +1,12 @@
+{
+  "trialDays": 14,
+  "plans": [
+    { "id": "basic", "maxAreas": 5, "prices": [ { "months": 1, "price": 500 }, { "months": 3, "price": 1350 }, { "months": 6, "price": 2500 }, { "months": 12, "price": 4500 } ] },
+    { "id": "unlimited", "maxAreas": null, "prices": [ { "months": 1, "price": 1200 }, { "months": 3, "price": 3200 }, { "months": 6, "price": 6000 }, { "months": 12, "price": 10800 } ] }
+  ],
+  "vouchers": [
+    { "code": "LEGIS10", "type": "percent", "value": 10, "appliesTo": "all" },
+    { "code": "ESTUDANTE25", "type": "percent", "value": 25, "appliesTo": "plans" },
+    { "code": "BEMVINDO", "type": "fixed", "value": 200, "appliesTo": "all" }
+  ]
+}

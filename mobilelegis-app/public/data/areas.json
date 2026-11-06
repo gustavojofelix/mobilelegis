@@ -1,0 +1,111 @@
+[
+  {
+    "id": "civil-penal-adm", "number": 1, "image": "images/areas/area-1.jpg",
+    "name": { "pt": "Legislação Civil, Penal e Administrativa", "en": "Civil, Criminal and Administrative Legislation", "fr": "Législation civile, pénale et administrative" },
+    "categories": [
+      { "id": "civil", "name": { "pt": "Civil", "en": "Civil", "fr": "Civil" }, "subcategories": [
+        { "id": "parte-geral", "name": { "pt": "Parte Geral", "en": "General Part", "fr": "Partie générale" } },
+        { "id": "organizacao-judiciaria", "name": { "pt": "Organização Judiciária", "en": "Judicial Organisation", "fr": "Organisation judiciaire" } },
+        { "id": "custas-judiciais", "name": { "pt": "Custas Judiciais", "en": "Court Fees", "fr": "Frais de justice" } },
+        { "id": "familia", "name": { "pt": "Legislação sobre Família", "en": "Family Legislation", "fr": "Législation sur la famille" } },
+        { "id": "terra", "name": { "pt": "Legislação de Terra", "en": "Land Legislation", "fr": "Législation foncière" } }
+      ] },
+      { "id": "penal", "name": { "pt": "Penal", "en": "Criminal", "fr": "Pénal" }, "subcategories": [
+        { "id": "codigo-penal", "name": { "pt": "Código Penal", "en": "Penal Code", "fr": "Code pénal" } }
+      ] },
+      { "id": "administrativa", "name": { "pt": "Administrativa", "en": "Administrative", "fr": "Administratif" }, "subcategories": [
+        { "id": "procedimento-adm", "name": { "pt": "Procedimento Administrativo", "en": "Administrative Procedure", "fr": "Procédure administrative" } }
+      ] }
+    ]
+  },
+  {
+    "id": "fiscal", "number": 2, "image": "images/areas/area-2.jpg",
+    "name": { "pt": "Legislação Fiscal e Contabilística", "en": "Tax and Accounting Legislation", "fr": "Législation fiscale et comptable" },
+    "categories": [
+      { "id": "impostos", "name": { "pt": "Impostos", "en": "Taxes", "fr": "Impôts" }, "subcategories": [
+        { "id": "iva", "name": { "pt": "Imposto sobre o Valor Acrescentado", "en": "Value Added Tax", "fr": "Taxe sur la valeur ajoutée" } }
+      ] },
+      { "id": "contabilidade", "name": { "pt": "Contabilidade", "en": "Accounting", "fr": "Comptabilité" }, "subcategories": [
+        { "id": "normas-contabilisticas", "name": { "pt": "Normas Contabilísticas", "en": "Accounting Standards", "fr": "Normes comptables" } }
+      ] }
+    ]
+  },
+  {
+    "id": "aduaneira", "number": 3, "image": "images/areas/area-3.jpg",
+    "name": { "pt": "Legislação Aduaneira e de Comércio Internacional", "en": "Customs and International Trade Legislation", "fr": "Législation douanière et du commerce international" },
+    "categories": [
+      { "id": "alfandegas", "name": { "pt": "Alfândegas", "en": "Customs", "fr": "Douanes" }, "subcategories": [
+        { "id": "despacho-aduaneiro", "name": { "pt": "Despacho Aduaneiro", "en": "Customs Clearance", "fr": "Dédouanement" } }
+      ] }
+    ]
+  },
+  {
+    "id": "laboral", "number": 4, "image": "images/areas/area-4.jpg",
+    "name": { "pt": "Legislação Laboral, Segurança Social e Migratória", "en": "Labour, Social Security and Migration Legislation", "fr": "Législation du travail, de la sécurité sociale et migratoire" },
+    "categories": [
+      { "id": "trabalho", "name": { "pt": "Laboral", "en": "Labour", "fr": "Travail" }, "subcategories": [
+        { "id": "relacoes-trabalho", "name": { "pt": "Relações de Trabalho", "en": "Employment Relations", "fr": "Relations de travail" } }
+      ] },
+      { "id": "seguranca-social", "name": { "pt": "Segurança Social", "en": "Social Security", "fr": "Sécurité sociale" }, "subcategories": [
+        { "id": "inss", "name": { "pt": "Sistema de Segurança Social", "en": "Social Security System", "fr": "Système de sécurité sociale" } }
+      ] }
+    ]
+  },
+  {
+    "id": "bancario", "number": 5, "image": "images/areas/area-5.jpg",
+    "name": { "pt": "Legislação do Sector Bancário, Seguros e Fundo de Pensões", "en": "Banking, Insurance and Pension Fund Legislation", "fr": "Législation bancaire, des assurances et des fonds de pension" },
+    "categories": [
+      { "id": "banca", "name": { "pt": "Bancário", "en": "Banking", "fr": "Bancaire" }, "subcategories": [
+        { "id": "instituicoes-credito", "name": { "pt": "Instituições de Crédito", "en": "Credit Institutions", "fr": "Établissements de crédit" } }
+      ] }
+    ]
+  },
+  {
+    "id": "energia", "number": 6, "image": "images/areas/area-6.jpg",
+    "name": { "pt": "Legislação de Energia, Minas e Petróleo", "en": "Energy, Mining and Petroleum Legislation", "fr": "Législation de l'énergie, des mines et du pétrole" },
+    "categories": [
+      { "id": "minas", "name": { "pt": "Minas", "en": "Mining", "fr": "Mines" }, "subcategories": [
+        { "id": "regime-mineiro", "name": { "pt": "Regime Mineiro", "en": "Mining Regime", "fr": "Régime minier" } }
+      ] },
+      { "id": "petroleo", "name": { "pt": "Petróleo", "en": "Petroleum", "fr": "Pétrole" }, "subcategories": [
+        { "id": "operacoes-petroliferas", "name": { "pt": "Operações Petrolíferas", "en": "Petroleum Operations", "fr": "Opérations pétrolières" } }
+      ] }
+    ]
+  },
+  {
+    "id": "tic", "number": 7, "image": "images/areas/area-7.jpg",
+    "name": { "pt": "Legislação sobre Tecnologias de Informação e Comunicações", "en": "Information and Communication Technology Legislation", "fr": "Législation sur les technologies de l'information et de la communication" },
+    "categories": [
+      { "id": "tic-cat", "name": { "pt": "Tecnologias de Informação", "en": "Information Technology", "fr": "Technologies de l'information" }, "subcategories": [
+        { "id": "transaccoes-electronicas", "name": { "pt": "Transacções Electrónicas", "en": "Electronic Transactions", "fr": "Transactions électroniques" } }
+      ] }
+    ]
+  },
+  {
+    "id": "actividades", "number": 8, "image": "images/areas/area-8.jpg",
+    "name": { "pt": "Legislação de Actividades Económicas", "en": "Economic Activities Legislation", "fr": "Législation des activités économiques" },
+    "categories": [
+      { "id": "comercial", "name": { "pt": "Comercial", "en": "Commercial", "fr": "Commercial" }, "subcategories": [
+        { "id": "codigo-comercial", "name": { "pt": "Código Comercial", "en": "Commercial Code", "fr": "Code de commerce" } }
+      ] }
+    ]
+  },
+  {
+    "id": "infra", "number": 9, "image": "images/areas/area-9.jpg",
+    "name": { "pt": "Legislação de Infra-estruturas, Habitação e Recursos Hídricos", "en": "Infrastructure, Housing and Water Resources Legislation", "fr": "Législation des infrastructures, du logement et des ressources en eau" },
+    "categories": [
+      { "id": "habitacao", "name": { "pt": "Habitação", "en": "Housing", "fr": "Logement" }, "subcategories": [
+        { "id": "arrendamento", "name": { "pt": "Arrendamento", "en": "Leasing", "fr": "Bail" } }
+      ] }
+    ]
+  },
+  {
+    "id": "saude", "number": 10, "image": "images/areas/area-10.jpg",
+    "name": { "pt": "Legislação de Saúde e Desporto", "en": "Health and Sports Legislation", "fr": "Législation de la santé et du sport" },
+    "categories": [
+      { "id": "saude-cat", "name": { "pt": "Saúde", "en": "Health", "fr": "Santé" }, "subcategories": [
+        { "id": "servico-saude", "name": { "pt": "Serviço Nacional de Saúde", "en": "National Health Service", "fr": "Service national de santé" } }
+      ] }
+    ]
+  }
+]

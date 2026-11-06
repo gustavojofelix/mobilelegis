@@ -1,0 +1,1093 @@
+[
+ {
+  "id": "crm-2004",
+  "type": "Constituição",
+  "number": "—",
+  "year": 2004,
+  "date": "2004-11-16",
+  "title": "Constituição da República de Moçambique - 16 de Novembro de 2004",
+  "heading": "Constituição da República de Moçambique",
+  "preamble": "Lei fundamental da República de Moçambique, aprovada em 16 de Novembro de 2004, com as alterações introduzidas pela revisão pontual de 2018.",
+  "areaId": "civil-penal-adm",
+  "categoryId": "civil",
+  "subcategoryId": "parte-geral",
+  "status": "alterado",
+  "price": 350,
+  "amendments": [
+   {
+    "diploma": "Lei n.º 1/2018, de 12 de Junho",
+    "date": "2018-06-12",
+    "summary": "Revisão pontual da Constituição (descentralização)."
+   }
+  ],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "TÍTULO I — Princípios Fundamentais",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "República de Moçambique",
+      "paragraphs": [
+       "A República de Moçambique é um Estado independente, soberano, democrático e de justiça social."
+      ]
+     },
+     {
+      "id": "art-2",
+      "number": "2",
+      "heading": "Soberania e legalidade",
+      "paragraphs": [
+       "1. A soberania reside no povo.",
+       "2. O povo moçambicano exerce a soberania segundo as formas fixadas na Constituição.",
+       "3. O Estado subordina-se à Constituição e funda-se na legalidade."
+      ]
+     },
+     {
+      "id": "art-3",
+      "number": "3",
+      "heading": "Estado de Direito Democrático",
+      "paragraphs": [
+       "A República de Moçambique é um Estado de Direito, baseado no pluralismo de expressão, na organização política democrática, no respeito e garantia dos direitos e liberdades fundamentais do Homem."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "TÍTULO VIII — Assembleia da República",
+    "articles": [
+     {
+      "id": "art-168",
+      "number": "168",
+      "heading": "Definição",
+      "paragraphs": [
+       "1. A Assembleia da República é a assembleia representativa de todos os cidadãos moçambicanos.",
+       "2. O deputado representa todo o país e não apenas o círculo pelo qual é eleito."
+      ]
+     },
+     {
+      "id": "art-169",
+      "number": "169",
+      "heading": "Função",
+      "paragraphs": [
+       "1. A Assembleia da República é o mais alto órgão legislativo na República de Moçambique.",
+       "2. A Assembleia da República determina as normas que regem o funcionamento do Estado e a vida económica e social através de leis e deliberações de carácter genérico."
+      ]
+     },
+     {
+      "id": "art-170",
+      "number": "170",
+      "heading": "Eleição e composição",
+      "paragraphs": [
+       "1. A Assembleia da República é eleita por sufrágio universal, directo, igual, secreto e pessoal.",
+       "2. A Assembleia da República é constituída por duzentos e cinquenta deputados."
+      ]
+     },
+     {
+      "id": "art-179",
+      "number": "179",
+      "heading": "Competências",
+      "paragraphs": [
+       "1. Compete à Assembleia da República legislar sobre as questões básicas da política interna e externa do país.",
+       "2. É da exclusiva competência da Assembleia da República, entre outras:",
+       "a) aprovar as leis constitucionais;",
+       "b) aprovar o Orçamento do Estado e o respectivo relatório de execução;",
+       "c) aprovar o Plano Económico e Social;",
+       "d) deliberar sobre as grandes opções da política externa e de defesa."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "TÍTULO XIV — Governação Descentralizada",
+    "articles": [
+     {
+      "id": "art-270",
+      "number": "270",
+      "heading": "Princípios da descentralização",
+      "paragraphs": [
+       "1. A descentralização tem como objectivo organizar a participação dos cidadãos na solução dos problemas próprios da sua comunidade e promover o desenvolvimento local.",
+       "2. A descentralização compreende os órgãos de governação descentralizada provincial, distrital e as autarquias locais, incluindo as respectivas assembleias."
+      ],
+      "note": "Redacção dada pela Lei n.º 1/2018, de 12 de Junho.",
+      "history": [
+       {
+        "validUntil": "2018-06-12",
+        "source": "Redacção original (2004)",
+        "text": [
+         "1. O poder local tem como objectivos organizar a participação dos cidadãos na solução dos problemas próprios da sua comunidade.",
+         "2. O poder local compreende a existência de autarquias locais."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lei-1-2018",
+  "type": "Lei",
+  "number": "1/2018",
+  "year": 2018,
+  "date": "2018-06-12",
+  "title": "Lei da Revisão Pontual da Constituição da República de Moçambique - Lei n.º 1/2018, de 12 de Junho",
+  "heading": "Lei n.º 1/2018, de 12 de Junho",
+  "preamble": "Havendo necessidade de rever, pontualmente, a Constituição da República para ajustá-la ao processo de consolidação da reforma democrática do Estado, ao aprofundamento da democracia participativa e a garantia da paz, ao abrigo do disposto na alínea a), do número 2, do artigo 179 da Constituição da República, a Assembleia da República determina:",
+  "areaId": "civil-penal-adm",
+  "categoryId": "civil",
+  "subcategoryId": "parte-geral",
+  "status": "em_vigor",
+  "price": 200,
+  "amendments": [],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "CAPÍTULO I — Disposições Gerais",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Objecto",
+      "paragraphs": [
+       "A presente Lei, aprovada pela Assembleia da República nos termos da Constituição, procede à revisão pontual da Constituição da República de Moçambique."
+      ]
+     },
+     {
+      "id": "art-2",
+      "number": "2",
+      "heading": "Alterações",
+      "paragraphs": [
+       "São alterados os artigos relativos à descentralização, que passam a reconhecer a Assembleia Provincial e a Assembleia Distrital como órgãos de representação democrática.",
+       "A Assembleia da República acompanha a implementação das presentes alterações."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "CAPÍTULO II — Órgãos de Governação Descentralizada Provincial",
+    "articles": [
+     {
+      "id": "art-3",
+      "number": "3",
+      "heading": "Assembleia Provincial",
+      "paragraphs": [
+       "1. A Assembleia Provincial é o órgão de representação democrática da província.",
+       "2. A Assembleia Provincial é eleita por sufrágio universal, directo, igual, secreto, pessoal e periódico."
+      ]
+     },
+     {
+      "id": "art-4",
+      "number": "4",
+      "heading": "Governador de Província",
+      "paragraphs": [
+       "1. É eleito Governador de Província o cabeça de lista do partido político que obtiver a maioria dos votos nas eleições para a Assembleia Provincial.",
+       "2. O Governador de Província responde perante a respectiva assembleia."
+      ]
+     },
+     {
+      "id": "art-5",
+      "number": "5",
+      "heading": "Conselho Executivo Provincial",
+      "paragraphs": [
+       "O Conselho Executivo Provincial é o órgão executivo da governação descentralizada provincial e presta contas à Assembleia Provincial."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "CAPÍTULO III — Órgãos de Governação Descentralizada Distrital",
+    "articles": [
+     {
+      "id": "art-6",
+      "number": "6",
+      "heading": "Órgãos distritais",
+      "paragraphs": [
+       "Os órgãos de governação descentralizada distrital são o Administrador do Distrito e o Conselho Executivo Distrital."
+      ]
+     },
+     {
+      "id": "art-7",
+      "number": "7",
+      "heading": "Assembleia Distrital",
+      "paragraphs": [
+       "1. A Assembleia Distrital é o órgão de representação democrática do distrito.",
+       "2. A eleição da Assembleia Distrital realiza-se nos termos a definir por lei."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "CAPÍTULO IV — Disposições Finais e Transitórias",
+    "articles": [
+     {
+      "id": "art-8",
+      "number": "8",
+      "heading": "Disposição transitória",
+      "paragraphs": [
+       "Até à realização das primeiras eleições distritais, mantêm-se em funções os órgãos actuais, competindo à Assembleia da República aprovar a legislação complementar."
+      ]
+     },
+     {
+      "id": "art-9",
+      "number": "9",
+      "heading": "Entrada em vigor",
+      "paragraphs": [
+       "A presente Lei entra em vigor na data da sua publicação."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dl-44129",
+  "type": "Decreto-Lei",
+  "number": "44129",
+  "year": 1961,
+  "date": "1961-12-28",
+  "title": "Código de Processo Civil - Decreto-Lei n.º 44129, de 28 de Dezembro de 1961",
+  "heading": "Decreto-Lei n.º 44129, de 28 de Dezembro de 1961",
+  "preamble": "Aprova o Código de Processo Civil. Versão consolidada com 13 alterações legislativas.",
+  "areaId": "civil-penal-adm",
+  "categoryId": "civil",
+  "subcategoryId": "parte-geral",
+  "status": "alterado",
+  "price": 600,
+  "amendments": [
+   {
+    "diploma": "Decreto-Lei n.º 47690, de 11 de Maio de 1967",
+    "date": "1967-05-11",
+    "summary": "Ajustamentos ao regime de prazos."
+   },
+   {
+    "diploma": "Decreto-Lei n.º 323/70, de 11 de Julho",
+    "date": "1970-07-11",
+    "summary": "Alterações ao processo declarativo."
+   },
+   {
+    "diploma": "Decreto-Lei n.º 4/1975",
+    "date": "1975-09-20",
+    "summary": "Adaptação à organização judiciária."
+   },
+   {
+    "diploma": "Lei n.º 10/1992",
+    "date": "1992-05-06",
+    "summary": "Organização dos tribunais judiciais."
+   },
+   {
+    "diploma": "Decreto-Lei n.º 1/2005, de 27 de Dezembro",
+    "date": "2005-12-27",
+    "summary": "Revisão do processo declarativo e dos recursos."
+   },
+   {
+    "diploma": "Decreto-Lei n.º 1/2009, de 24 de Abril",
+    "date": "2009-04-24",
+    "summary": "Alterações complementares."
+   },
+   {
+    "diploma": "Lei n.º 24/2007",
+    "date": "2007-08-20",
+    "summary": "Organização judiciária."
+   },
+   {
+    "diploma": "Lei n.º 11/2018",
+    "date": "2018-10-03",
+    "summary": "Tribunais judiciais."
+   },
+   {
+    "diploma": "Lei n.º 2/2019",
+    "date": "2019-05-31",
+    "summary": "Custas judiciais."
+   },
+   {
+    "diploma": "Lei n.º 7/2020",
+    "date": "2020-06-15",
+    "summary": "Citação e notificação electrónica."
+   },
+   {
+    "diploma": "Lei n.º 3/2021",
+    "date": "2021-03-10",
+    "summary": "Mediação e conciliação."
+   },
+   {
+    "diploma": "Lei n.º 9/2022",
+    "date": "2022-07-01",
+    "summary": "Processo executivo."
+   },
+   {
+    "diploma": "Lei n.º 4/2024",
+    "date": "2024-04-18",
+    "summary": "Actos processuais por via electrónica."
+   }
+  ],
+  "annexes": [
+   "Formulário — Petição inicial (modelo)",
+   "Tabela de prazos processuais"
+  ],
+  "sections": [
+   {
+    "heading": "LIVRO I — Da Acção",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Proibição da autodefesa",
+      "paragraphs": [
+       "A ninguém é lícito o recurso à força com o fim de realizar ou assegurar o próprio direito, salvo nos casos e dentro dos limites declarados na lei."
+      ]
+     },
+     {
+      "id": "art-2",
+      "number": "2",
+      "heading": "Garantia de acesso aos tribunais",
+      "paragraphs": [
+       "A todo o direito corresponde a acção adequada a fazê-lo reconhecer em juízo, a prevenir ou reparar a violação dele e a realizá-lo coercivamente."
+      ]
+     },
+     {
+      "id": "art-3",
+      "number": "3",
+      "heading": "Necessidade do pedido e da contradição",
+      "paragraphs": [
+       "1. O tribunal não pode resolver o conflito de interesses que a acção pressupõe sem que a resolução lhe seja pedida por uma das partes e a outra seja devidamente chamada para deduzir oposição.",
+       "2. Só nos casos excepcionais previstos na lei se podem tomar providências contra determinada pessoa sem que esta seja previamente ouvida."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "LIVRO II — Do Processo em Geral",
+    "articles": [
+     {
+      "id": "art-144",
+      "number": "144",
+      "heading": "Regra da continuidade dos prazos",
+      "paragraphs": [
+       "1. O prazo processual é contínuo, suspendendo-se, no entanto, durante as férias judiciais.",
+       "2. Quando o prazo para a prática do acto processual terminar em dia em que os tribunais estiverem encerrados, transfere-se o seu termo para o primeiro dia útil seguinte."
+      ],
+      "note": "Redacção dada pelo Decreto-Lei n.º 47690, de 11 de Maio de 1967.",
+      "history": [
+       {
+        "validUntil": "1967-05-11",
+        "source": "Redacção original (1961)",
+        "text": [
+         "1. Os prazos judiciais são contínuos.",
+         "2. O prazo que terminar em domingo ou dia feriado transfere-se para o primeiro dia útil."
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "LIVRO III — Do Processo de Declaração",
+    "articles": [
+     {
+      "id": "art-486",
+      "number": "486",
+      "heading": "Prazo para a contestação",
+      "paragraphs": [
+       "1. O réu pode contestar no prazo de vinte dias a contar da citação, começando o prazo a correr desde o termo da dilação, quando a esta houver lugar.",
+       "2. Quando termine em dias diferentes o prazo para a defesa por parte dos vários réus, a contestação de todos ou de cada um deles pode ser oferecida até ao termo do prazo que começou a correr em último lugar."
+      ],
+      "note": "Redacção dada pelo Decreto-Lei n.º 1/2005, de 27 de Dezembro.",
+      "annex": "Tabela de prazos processuais"
+     },
+     {
+      "id": "art-685",
+      "number": "685",
+      "heading": "Prazo de interposição do recurso",
+      "paragraphs": [
+       "1. O prazo para a interposição dos recursos é de dez dias, contados da notificação da decisão.",
+       "2. Se a parte for revel e não dever ser notificada, o prazo corre desde a publicação da decisão."
+      ],
+      "note": "Redacção dada pelo Decreto-Lei n.º 1/2005, de 27 de Dezembro.",
+      "history": [
+       {
+        "validUntil": "2005-12-27",
+        "source": "Redacção do Decreto-Lei n.º 47690",
+        "text": [
+         "1. O prazo para a interposição dos recursos é de oito dias, contados da notificação da decisão."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dl-47344",
+  "type": "Decreto-Lei",
+  "number": "47344",
+  "year": 1966,
+  "date": "1966-11-25",
+  "title": "Código Civil - Decreto-Lei n.º 47344, de 25 de Novembro de 1966",
+  "heading": "Decreto-Lei n.º 47344, de 25 de Novembro de 1966",
+  "preamble": "Aprova o Código Civil. Regula as relações jurídicas privadas: pessoas, obrigações, coisas, família e sucessões.",
+  "areaId": "civil-penal-adm",
+  "categoryId": "civil",
+  "subcategoryId": "parte-geral",
+  "status": "alterado",
+  "price": 550,
+  "amendments": [
+   {
+    "diploma": "Lei n.º 22/2019, de 11 de Dezembro",
+    "date": "2019-12-11",
+    "summary": "Revoga o Livro IV (Família), substituído pela Lei da Família."
+   }
+  ],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "LIVRO I — Parte Geral · TÍTULO I — Das Leis, sua Interpretação e Aplicação",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Fontes imediatas",
+      "paragraphs": [
+       "1. São fontes imediatas do direito as leis e as normas corporativas.",
+       "2. Consideram-se leis todas as disposições genéricas provindas dos órgãos estaduais competentes."
+      ]
+     },
+     {
+      "id": "art-5",
+      "number": "5",
+      "heading": "Começo da vigência da lei",
+      "paragraphs": [
+       "1. A lei só se torna obrigatória depois de publicada no jornal oficial.",
+       "2. Entre a publicação e a vigência da lei decorrerá o tempo que a própria lei fixar ou, na falta de fixação, o que for determinado em legislação especial."
+      ]
+     },
+     {
+      "id": "art-6",
+      "number": "6",
+      "heading": "Ignorância ou má interpretação da lei",
+      "paragraphs": [
+       "A ignorância ou má interpretação da lei não justifica a falta do seu cumprimento nem isenta as pessoas das sanções nela estabelecidas."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "TÍTULO II — Das Relações Jurídicas · Pessoas Singulares",
+    "articles": [
+     {
+      "id": "art-66",
+      "number": "66",
+      "heading": "Começo da personalidade",
+      "paragraphs": [
+       "1. A personalidade adquire-se no momento do nascimento completo e com vida.",
+       "2. Os direitos que a lei reconhece aos nascituros dependem do seu nascimento."
+      ]
+     },
+     {
+      "id": "art-122",
+      "number": "122",
+      "heading": "Menores",
+      "paragraphs": [
+       "É menor quem não tiver ainda completado dezoito anos de idade."
+      ]
+     },
+     {
+      "id": "art-130",
+      "number": "130",
+      "heading": "Efeitos da maioridade",
+      "paragraphs": [
+       "Aquele que perfizer dezoito anos de idade adquire plena capacidade de exercício de direitos, ficando habilitado a reger a sua pessoa e a dispor dos seus bens."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lei-24-2019",
+  "type": "Lei",
+  "number": "24/2019",
+  "year": 2019,
+  "date": "2019-12-24",
+  "title": "Código Penal - Lei n.º 24/2019, de 24 de Dezembro",
+  "heading": "Lei n.º 24/2019, de 24 de Dezembro",
+  "preamble": "Aprova o Código Penal da República de Moçambique.",
+  "areaId": "civil-penal-adm",
+  "categoryId": "penal",
+  "subcategoryId": "codigo-penal",
+  "status": "em_vigor",
+  "price": 500,
+  "amendments": [],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "LIVRO I — Parte Geral",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Princípio da legalidade",
+      "paragraphs": [
+       "1. Só pode ser punido criminalmente o facto descrito e declarado passível de pena por lei anterior ao momento da sua prática.",
+       "2. Não é permitido o recurso à analogia para qualificar um facto como crime."
+      ]
+     },
+     {
+      "id": "art-2",
+      "number": "2",
+      "heading": "Aplicação no tempo",
+      "paragraphs": [
+       "1. As penas e as medidas de segurança são determinadas pela lei vigente no momento da prática do facto.",
+       "2. Quando a lei posterior for mais favorável ao agente, é sempre aplicado o regime mais favorável."
+      ]
+     },
+     {
+      "id": "art-46",
+      "number": "46",
+      "heading": "Inimputabilidade em razão da idade",
+      "paragraphs": [
+       "Os menores de dezasseis anos são inimputáveis."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "LIVRO II — Parte Especial",
+    "articles": [
+     {
+      "id": "art-155",
+      "number": "155",
+      "heading": "Homicídio",
+      "paragraphs": [
+       "Quem matar outra pessoa é punido com pena de prisão de dezasseis a vinte anos."
+      ]
+     },
+     {
+      "id": "art-268",
+      "number": "268",
+      "heading": "Furto",
+      "paragraphs": [
+       "1. Quem, com ilegítima intenção de apropriação para si ou para outra pessoa, subtrair coisa móvel alheia, é punido com pena de prisão até dois anos e multa até um ano.",
+       "2. A tentativa é punível."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lei-14-2011",
+  "type": "Lei",
+  "number": "14/2011",
+  "year": 2011,
+  "date": "2011-08-10",
+  "title": "Normas de Funcionamento da Administração Pública - Lei n.º 14/2011, de 10 de Agosto",
+  "heading": "Lei n.º 14/2011, de 10 de Agosto",
+  "preamble": "Regula a formação da vontade da Administração Pública e estabelece as normas de defesa dos direitos e interesses dos particulares.",
+  "areaId": "civil-penal-adm",
+  "categoryId": "administrativa",
+  "subcategoryId": "procedimento-adm",
+  "status": "em_vigor",
+  "price": 250,
+  "amendments": [],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "CAPÍTULO I — Disposições Gerais",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Objecto",
+      "paragraphs": [
+       "A presente Lei regula a formação da vontade da Administração Pública e estabelece as normas de defesa dos direitos e interesses dos particulares."
+      ]
+     },
+     {
+      "id": "art-4",
+      "number": "4",
+      "heading": "Princípio da legalidade",
+      "paragraphs": [
+       "Os órgãos da Administração Pública devem actuar em obediência à lei e ao direito, dentro dos limites dos poderes que lhes estejam atribuídos."
+      ]
+     },
+     {
+      "id": "art-10",
+      "number": "10",
+      "heading": "Dever de decisão",
+      "paragraphs": [
+       "1. Os órgãos administrativos têm o dever de se pronunciar sobre todos os assuntos da sua competência que lhes sejam apresentados pelos particulares.",
+       "2. O prazo geral para a decisão é de quarenta e cinco dias, salvo disposição especial."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lei-13-2023",
+  "type": "Lei",
+  "number": "13/2023",
+  "year": 2023,
+  "date": "2023-08-25",
+  "title": "Lei do Trabalho - Lei n.º 13/2023, de 25 de Agosto",
+  "heading": "Lei n.º 13/2023, de 25 de Agosto",
+  "preamble": "Aprova a Lei do Trabalho e revoga a Lei n.º 23/2007, de 1 de Agosto.",
+  "areaId": "laboral",
+  "categoryId": "trabalho",
+  "subcategoryId": "relacoes-trabalho",
+  "status": "em_vigor",
+  "price": 400,
+  "amendments": [],
+  "annexes": [
+   "Tabela de indemnizações por despedimento"
+  ],
+  "sections": [
+   {
+    "heading": "CAPÍTULO I — Disposições Gerais",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Objecto",
+      "paragraphs": [
+       "A presente Lei define os princípios gerais e estabelece o regime jurídico aplicável às relações individuais e colectivas de trabalho subordinado."
+      ]
+     },
+     {
+      "id": "art-3",
+      "number": "3",
+      "heading": "Âmbito de aplicação",
+      "paragraphs": [
+       "A presente Lei aplica-se às relações jurídicas de trabalho subordinado estabelecidas entre empregadores e trabalhadores, nacionais e estrangeiros, que exerçam a sua actividade no país."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "CAPÍTULO II — Contrato de Trabalho",
+    "articles": [
+     {
+      "id": "art-47",
+      "number": "47",
+      "heading": "Duração do período probatório",
+      "paragraphs": [
+       "1. O período probatório não pode exceder:",
+       "a) noventa dias para a generalidade dos trabalhadores;",
+       "b) cento e oitenta dias para os técnicos de nível médio e superior e para os trabalhadores que exerçam cargos de chefia e direcção.",
+       "2. Nos contratos a prazo certo, o período probatório não pode exceder trinta dias."
+      ]
+     },
+     {
+      "id": "art-85",
+      "number": "85",
+      "heading": "Duração normal do trabalho",
+      "paragraphs": [
+       "1. O período normal de trabalho não pode exceder quarenta e oito horas por semana e oito horas por dia.",
+       "2. O período normal de trabalho diário pode ser alargado até nove horas, desde que o trabalhador beneficie de meio dia de descanso semanal complementar."
+      ]
+     },
+     {
+      "id": "art-98",
+      "number": "98",
+      "heading": "Direito a férias",
+      "paragraphs": [
+       "1. O trabalhador tem direito a gozar férias remuneradas em cada ano civil.",
+       "2. O direito a férias é irrenunciável e não pode ser substituído por qualquer compensação económica, salvo nos casos previstos na lei."
+      ]
+     },
+     {
+      "id": "art-130",
+      "number": "130",
+      "heading": "Despedimento com justa causa",
+      "paragraphs": [
+       "1. Constitui justa causa de despedimento o comportamento culposo do trabalhador que, pela sua gravidade e consequências, torne imediata e praticamente impossível a subsistência da relação de trabalho.",
+       "2. O valor da indemnização devida é calculado nos termos da tabela anexa."
+      ],
+      "annex": "Tabela de indemnizações por despedimento"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lei-23-2007",
+  "type": "Lei",
+  "number": "23/2007",
+  "year": 2007,
+  "date": "2007-08-01",
+  "title": "Lei do Trabalho (revogada) - Lei n.º 23/2007, de 1 de Agosto",
+  "heading": "Lei n.º 23/2007, de 1 de Agosto",
+  "preamble": "Anterior Lei do Trabalho. Revogada pela Lei n.º 13/2023, de 25 de Agosto. Mantida para consulta histórica.",
+  "areaId": "laboral",
+  "categoryId": "trabalho",
+  "subcategoryId": "relacoes-trabalho",
+  "status": "revogado",
+  "revokedBy": "lei-13-2023",
+  "price": 150,
+  "amendments": [],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "CAPÍTULO I — Disposições Gerais",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Objecto",
+      "paragraphs": [
+       "A presente Lei define os princípios gerais e estabelece o regime jurídico aplicável às relações individuais e colectivas de trabalho."
+      ]
+     },
+     {
+      "id": "art-47",
+      "number": "47",
+      "heading": "Período probatório",
+      "paragraphs": [
+       "O período probatório não pode exceder noventa dias para a generalidade dos trabalhadores."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lei-32-2007",
+  "type": "Lei",
+  "number": "32/2007",
+  "year": 2007,
+  "date": "2007-12-31",
+  "title": "Código do Imposto sobre o Valor Acrescentado - Lei n.º 32/2007, de 31 de Dezembro",
+  "heading": "Lei n.º 32/2007, de 31 de Dezembro",
+  "preamble": "Aprova o Código do IVA, que incide sobre transmissões de bens, prestações de serviços e importações.",
+  "areaId": "fiscal",
+  "categoryId": "impostos",
+  "subcategoryId": "iva",
+  "status": "alterado",
+  "price": 300,
+  "amendments": [
+   {
+    "diploma": "Lei n.º 22/2022, de 28 de Dezembro",
+    "date": "2022-12-28",
+    "summary": "Redução da taxa normal do IVA."
+   }
+  ],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "CAPÍTULO I — Incidência",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Incidência objectiva",
+      "paragraphs": [
+       "Estão sujeitas a Imposto sobre o Valor Acrescentado:",
+       "a) as transmissões de bens e as prestações de serviços efectuadas no território nacional, a título oneroso, por um sujeito passivo agindo nessa qualidade;",
+       "b) as importações de bens."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "CAPÍTULO IV — Taxas",
+    "articles": [
+     {
+      "id": "art-17",
+      "number": "17",
+      "heading": "Taxa do imposto",
+      "paragraphs": [
+       "1. A taxa normal do imposto é de 16%.",
+       "2. A taxa referida no número anterior aplica-se às transmissões de bens, prestações de serviços e importações não isentas."
+      ],
+      "note": "Redacção dada pela Lei n.º 22/2022, de 28 de Dezembro.",
+      "history": [
+       {
+        "validUntil": "2022-12-28",
+        "source": "Redacção original (2007)",
+        "text": [
+         "1. A taxa do imposto é de 17%."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dl-2-2005",
+  "type": "Decreto-Lei",
+  "number": "2/2005",
+  "year": 2005,
+  "date": "2005-12-27",
+  "title": "Código Comercial - Decreto-Lei n.º 2/2005, de 27 de Dezembro",
+  "heading": "Decreto-Lei n.º 2/2005, de 27 de Dezembro",
+  "preamble": "Aprova o Código Comercial, que regula os empresários comerciais, as sociedades e os contratos comerciais.",
+  "areaId": "actividades",
+  "categoryId": "comercial",
+  "subcategoryId": "codigo-comercial",
+  "status": "em_vigor",
+  "price": 450,
+  "amendments": [],
+  "annexes": [
+   "Modelo de pacto social"
+  ],
+  "sections": [
+   {
+    "heading": "LIVRO I — Do Exercício da Empresa Comercial",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Objecto",
+      "paragraphs": [
+       "O presente Código regula a actividade das empresas comerciais e os actos de comércio."
+      ]
+     },
+     {
+      "id": "art-2",
+      "number": "2",
+      "heading": "Empresário comercial",
+      "paragraphs": [
+       "São empresários comerciais as pessoas singulares que, em nome próprio, exercem uma actividade económica organizada para a produção ou circulação de bens ou prestação de serviços, e as sociedades comerciais."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "LIVRO II — Das Sociedades Comerciais",
+    "articles": [
+     {
+      "id": "art-82",
+      "number": "82",
+      "heading": "Tipos de sociedades",
+      "paragraphs": [
+       "As sociedades comerciais devem adoptar um dos seguintes tipos: sociedade em nome colectivo, sociedade em comandita, sociedade por quotas ou sociedade anónima."
+      ]
+     },
+     {
+      "id": "art-90",
+      "number": "90",
+      "heading": "Forma do contrato de sociedade",
+      "paragraphs": [
+       "O contrato de sociedade deve ser reduzido a escrito, com reconhecimento presencial das assinaturas dos sócios, salvo se forma mais solene for exigida."
+      ],
+      "annex": "Modelo de pacto social"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lei-22-2019",
+  "type": "Lei",
+  "number": "22/2019",
+  "year": 2019,
+  "date": "2019-12-11",
+  "title": "Lei da Família - Lei n.º 22/2019, de 11 de Dezembro",
+  "heading": "Lei n.º 22/2019, de 11 de Dezembro",
+  "preamble": "Aprova a Lei da Família, que regula o casamento, a união de facto, a filiação e o poder parental.",
+  "areaId": "civil-penal-adm",
+  "categoryId": "civil",
+  "subcategoryId": "familia",
+  "status": "em_vigor",
+  "price": 300,
+  "amendments": [],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "TÍTULO I — Disposições Gerais",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Objecto",
+      "paragraphs": [
+       "A presente Lei estabelece o regime jurídico aplicável à família, ao casamento, à união de facto, à filiação e à tutela."
+      ]
+     }
+    ]
+   },
+   {
+    "heading": "TÍTULO II — Do Casamento",
+    "articles": [
+     {
+      "id": "art-30",
+      "number": "30",
+      "heading": "Idade núbil",
+      "paragraphs": [
+       "1. Só podem contrair casamento as pessoas que tenham completado dezoito anos de idade.",
+       "2. É proibido o casamento de menores, sendo nulo o casamento celebrado em violação do número anterior."
+      ]
+     },
+     {
+      "id": "art-31",
+      "number": "31",
+      "heading": "Impedimentos dirimentes",
+      "paragraphs": [
+       "São impedimentos dirimentes, obstando ao casamento da pessoa a quem respeitam com qualquer outra:",
+       "a) a idade inferior a dezoito anos;",
+       "b) o casamento anterior não dissolvido."
+      ]
+     },
+     {
+      "id": "art-202",
+      "number": "202",
+      "heading": "União de facto",
+      "paragraphs": [
+       "1. A união de facto é a ligação singular existente entre um homem e uma mulher, com carácter estável e duradouro, que sendo legalmente aptos para contrair casamento não o tenham celebrado.",
+       "2. A união de facto pressupõe a comunhão de cama, mesa e habitação por um período superior a três anos."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lei-20-2014",
+  "type": "Lei",
+  "number": "20/2014",
+  "year": 2014,
+  "date": "2014-08-18",
+  "title": "Lei de Minas - Lei n.º 20/2014, de 18 de Agosto",
+  "heading": "Lei n.º 20/2014, de 18 de Agosto",
+  "preamble": "Estabelece o regime jurídico do uso e aproveitamento dos recursos minerais.",
+  "areaId": "energia",
+  "categoryId": "minas",
+  "subcategoryId": "regime-mineiro",
+  "status": "em_vigor",
+  "price": 350,
+  "amendments": [],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "CAPÍTULO I — Disposições Gerais",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Objecto",
+      "paragraphs": [
+       "A presente Lei regula os direitos e deveres relativos ao uso e aproveitamento dos recursos minerais, em harmonia com as melhores e mais seguras práticas mineiras."
+      ]
+     },
+     {
+      "id": "art-2",
+      "number": "2",
+      "heading": "Propriedade dos recursos minerais",
+      "paragraphs": [
+       "Os recursos minerais situados no solo, subsolo, águas interiores, mar territorial, plataforma continental e zona económica exclusiva são propriedade do Estado."
+      ]
+     },
+     {
+      "id": "art-3",
+      "number": "3",
+      "heading": "Títulos mineiros",
+      "paragraphs": [
+       "1. O exercício da actividade mineira depende da atribuição de título mineiro.",
+       "2. Os títulos mineiros são a licença de prospecção e pesquisa, a concessão mineira e o certificado mineiro."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lei-20-2020",
+  "type": "Lei",
+  "number": "20/2020",
+  "year": 2020,
+  "date": "2020-12-31",
+  "title": "Lei das Instituições de Crédito e Sociedades Financeiras - Lei n.º 20/2020, de 31 de Dezembro",
+  "heading": "Lei n.º 20/2020, de 31 de Dezembro",
+  "preamble": "Aprova o regime jurídico das instituições de crédito e sociedades financeiras.",
+  "areaId": "bancario",
+  "categoryId": "banca",
+  "subcategoryId": "instituicoes-credito",
+  "status": "em_vigor",
+  "price": 400,
+  "amendments": [],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "CAPÍTULO I — Disposições Gerais",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Objecto",
+      "paragraphs": [
+       "A presente Lei regula o processo de estabelecimento, o exercício da actividade, a supervisão e o saneamento das instituições de crédito e sociedades financeiras."
+      ]
+     },
+     {
+      "id": "art-2",
+      "number": "2",
+      "heading": "Autorização",
+      "paragraphs": [
+       "A constituição de instituições de crédito depende de autorização do Banco de Moçambique."
+      ]
+     },
+     {
+      "id": "art-3",
+      "number": "3",
+      "heading": "Dever de segredo",
+      "paragraphs": [
+       "Os membros dos órgãos sociais e os trabalhadores das instituições de crédito não podem revelar ou utilizar informações sobre factos ou elementos respeitantes à vida da instituição ou às relações desta com os seus clientes."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "lei-3-2017",
+  "type": "Lei",
+  "number": "3/2017",
+  "year": 2017,
+  "date": "2017-01-09",
+  "title": "Lei de Transacções Electrónicas - Lei n.º 3/2017, de 9 de Janeiro",
+  "heading": "Lei n.º 3/2017, de 9 de Janeiro",
+  "preamble": "Estabelece os princípios e normas relativos às transacções electrónicas, ao comércio electrónico e ao governo electrónico.",
+  "areaId": "tic",
+  "categoryId": "tic-cat",
+  "subcategoryId": "transaccoes-electronicas",
+  "status": "em_vigor",
+  "price": 250,
+  "amendments": [],
+  "annexes": [],
+  "sections": [
+   {
+    "heading": "CAPÍTULO I — Disposições Gerais",
+    "articles": [
+     {
+      "id": "art-1",
+      "number": "1",
+      "heading": "Objecto",
+      "paragraphs": [
+       "A presente Lei estabelece os princípios, normas gerais e o regime jurídico das transacções electrónicas, do comércio electrónico e do governo electrónico."
+      ]
+     },
+     {
+      "id": "art-2",
+      "number": "2",
+      "heading": "Valor jurídico dos documentos electrónicos",
+      "paragraphs": [
+       "Os documentos electrónicos têm o mesmo valor jurídico que os documentos em papel, desde que cumpridos os requisitos previstos na presente Lei."
+      ]
+     },
+     {
+      "id": "art-3",
+      "number": "3",
+      "heading": "Assinatura electrónica",
+      "paragraphs": [
+       "A assinatura electrónica qualificada aposta a um documento electrónico equivale à assinatura autógrafa dos documentos com forma escrita sobre suporte de papel."
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]
