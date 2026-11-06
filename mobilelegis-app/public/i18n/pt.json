@@ -80,7 +80,13 @@
     "subtitle1": "Já decidiu em qual legislação vai trabalhar hoje?",
     "subtitle2": "Em baixo tem alguns dos atalhos para as várias aplicações Mobilelegis.",
     "unlocked": "Área desbloqueada",
-    "buyable": "Pode comprar diplomas desta área"
+    "buyable": "Pode comprar diplomas desta área",
+    "tools": "Ferramentas",
+    "toolAi": "Pergunte com as suas palavras",
+    "toolCases": "{{n}} decisões",
+    "toolTpl": "{{n}} modelos para preencher",
+    "toolNews": "Sem novidades por ler",
+    "toolNewsN": "{{n}} por ler"
   },
   "diploma": {
     "purchased": "Comprado",
@@ -163,7 +169,10 @@
       "newest": "Mais recentes",
       "oldest": "Mais antigos"
     },
-    "askAi": "Não encontrou? Faça a pergunta por palavras suas ao"
+    "askAi": "Não encontrou? Faça a pergunta por palavras suas ao",
+    "kind": {
+      "leg": "Legislação"
+    }
   },
   "plans": {
     "basic": "Plano Básico",
@@ -547,7 +556,8 @@
     "placeholder": "Escreva a sua pergunta jurídica…",
     "send": "Enviar",
     "disclaimer": "Protótipo. Não substitui aconselhamento jurídico.",
-    "clear": "Limpar conversa"
+    "clear": "Limpar conversa",
+    "relatedCases": "Jurisprudência que aplica estes artigos"
   },
   "dinfo": {
     "card": "Ficha",
@@ -584,6 +594,74 @@
       "force": "Entrada em vigor",
       "amend": "Alterado por",
       "revoke": "Revogado por"
-    }
+    },
+    "cases": "Jurisprudência e minutas",
+    "noCases": "Ainda sem jurisprudência ou minutas ligadas a este diploma."
+  },
+  "case": {
+    "title": "Jurisprudência",
+    "demoNote": "Protótipo: as decisões apresentadas são exemplos fictícios de demonstração, não jurisprudência real.",
+    "searchPh": "Ex.: despedimento justa causa",
+    "court": "Tribunal",
+    "kind": "Tipo de decisão",
+    "decision": "Sentido da decisão",
+    "dec": {
+      "procedente": "Procedente",
+      "parcial": "Parcialmente procedente",
+      "improcedente": "Improcedente",
+      "negado": "Negado provimento"
+    },
+    "appliesNorm": "Aplica",
+    "summary": "Sumário",
+    "norms": "Normas aplicadas",
+    "related": "Decisões relacionadas",
+    "nDecisions": "{{n}} decisão(ões)"
+  },
+  "tpl": {
+    "title": "Minutas e formulários",
+    "subtitle": "Modelos de documentos jurídicos ligados à legislação em vigor. Preencha os campos e descarregue em Word.",
+    "searchPh": "Pesquisar minutas (ex.: contrato, procuração)",
+    "nFields": "{{n}} campos",
+    "nNorms": "{{n}} normas",
+    "fill": "Preencher",
+    "clear": "Limpar campos",
+    "basis": "Base legal",
+    "word": "Descarregar Word",
+    "print": "Imprimir",
+    "fillOnline": "Preencher online",
+    "disclaimer": "Minutas de referência. Adapte-as ao caso concreto e confirme-as com um jurista antes de as usar."
+  },
+  "attach": {
+    "form": "Formulário",
+    "table": "Tabela",
+    "template": "Minuta",
+    "pdf": "PDF"
+  },
+  "news": {
+    "title": "Novidades",
+    "mine": "Para mim",
+    "all": "Tudo",
+    "settings": "Alertas",
+    "follow": "Seguir alterações",
+    "unfollow": "Deixar de seguir",
+    "followAreas": "Áreas que segue",
+    "followDiplomas": "Diplomas que segue",
+    "noDiplomas": "Ainda não segue nenhum diploma. Use o sino na página de um diploma.",
+    "channels": "Como quer ser avisado",
+    "email": "Por e-mail ({{email}})",
+    "push": "Notificação na aplicação móvel",
+    "daily": "Resumo diário",
+    "weekly": "Resumo semanal",
+    "channelsNote": "Protótipo: as preferências ficam guardadas, mas o envio de e-mails e notificações é simulado.",
+    "kind": {
+      "new": "Novo diploma",
+      "amend": "Alteração",
+      "case": "Jurisprudência"
+    },
+    "amendTitle": "Alterado: {{name}}",
+    "reasonArea": "Segue a área «{{name}}»",
+    "reasonDiploma": "Segue o diploma {{name}}",
+    "unread": "Não lido",
+    "empty": "Sem novidades nos últimos 120 dias."
   }
 }

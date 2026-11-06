@@ -80,7 +80,13 @@
     "subtitle1": "Which legislation will you be working on today?",
     "subtitle2": "Below are shortcuts to the various Mobilelegis applications.",
     "unlocked": "Area unlocked",
-    "buyable": "You can buy legal acts from this area"
+    "buyable": "You can buy legal acts from this area",
+    "tools": "Tools",
+    "toolAi": "Ask in your own words",
+    "toolCases": "{{n}} decisions",
+    "toolTpl": "{{n}} templates to fill in",
+    "toolNews": "Nothing unread",
+    "toolNewsN": "{{n}} unread"
   },
   "diploma": {
     "purchased": "Purchased",
@@ -163,7 +169,10 @@
       "newest": "Newest",
       "oldest": "Oldest"
     },
-    "askAi": "Not found? Ask in your own words with the"
+    "askAi": "Not found? Ask in your own words with the",
+    "kind": {
+      "leg": "Legislation"
+    }
   },
   "plans": {
     "basic": "Basic Plan",
@@ -547,7 +556,8 @@
     "placeholder": "Type your legal question…",
     "send": "Send",
     "disclaimer": "Prototype. Not a substitute for legal advice.",
-    "clear": "Clear conversation"
+    "clear": "Clear conversation",
+    "relatedCases": "Case law applying these articles"
   },
   "dinfo": {
     "card": "Record",
@@ -584,6 +594,74 @@
       "force": "Entry into force",
       "amend": "Amended by",
       "revoke": "Repealed by"
-    }
+    },
+    "cases": "Case law and templates",
+    "noCases": "No case law or templates linked to this act yet."
+  },
+  "case": {
+    "title": "Case law",
+    "demoNote": "Prototype: the decisions shown are fictional demo examples, not real case law.",
+    "searchPh": "E.g. dismissal for just cause",
+    "court": "Court",
+    "kind": "Decision type",
+    "decision": "Outcome",
+    "dec": {
+      "procedente": "Upheld",
+      "parcial": "Partly upheld",
+      "improcedente": "Dismissed",
+      "negado": "Appeal dismissed"
+    },
+    "appliesNorm": "Applies",
+    "summary": "Summary",
+    "norms": "Provisions applied",
+    "related": "Related decisions",
+    "nDecisions": "{{n}} decision(s)"
+  },
+  "tpl": {
+    "title": "Templates and forms",
+    "subtitle": "Legal document templates linked to the legislation in force. Fill in the fields and download in Word.",
+    "searchPh": "Search templates (e.g. contract, power of attorney)",
+    "nFields": "{{n}} fields",
+    "nNorms": "{{n}} provisions",
+    "fill": "Fill in",
+    "clear": "Clear fields",
+    "basis": "Legal basis",
+    "word": "Download Word",
+    "print": "Print",
+    "fillOnline": "Fill in online",
+    "disclaimer": "Reference templates. Adapt them to the specific case and check them with a lawyer before use."
+  },
+  "attach": {
+    "form": "Form",
+    "table": "Table",
+    "template": "Template",
+    "pdf": "PDF"
+  },
+  "news": {
+    "title": "What’s new",
+    "mine": "For me",
+    "all": "Everything",
+    "settings": "Alerts",
+    "follow": "Follow changes",
+    "unfollow": "Unfollow",
+    "followAreas": "Areas you follow",
+    "followDiplomas": "Acts you follow",
+    "noDiplomas": "You don’t follow any act yet. Use the bell on an act’s page.",
+    "channels": "How to notify you",
+    "email": "By e-mail ({{email}})",
+    "push": "Mobile app notification",
+    "daily": "Daily digest",
+    "weekly": "Weekly digest",
+    "channelsNote": "Prototype: preferences are saved, but sending e-mails and notifications is simulated.",
+    "kind": {
+      "new": "New act",
+      "amend": "Amendment",
+      "case": "Case law"
+    },
+    "amendTitle": "Amended: {{name}}",
+    "reasonArea": "You follow “{{name}}”",
+    "reasonDiploma": "You follow {{name}}",
+    "unread": "Unread",
+    "empty": "Nothing new in the last 120 days."
   }
 }

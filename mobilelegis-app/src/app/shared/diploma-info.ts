@@ -5,7 +5,7 @@ import { I18nService } from '../core/i18n.service';
 import { Diploma, Relation, RelationKind } from '../core/models';
 import { I18N_PIPES } from '../core/pipes';
 
-type Tab = 'card' | 'related' | 'timeline';
+type Tab = 'card' | 'related' | 'timeline' | 'cases';
 interface Group { kind: RelationKind; items: { r: Relation; d?: Diploma }[]; }
 interface Event { date: string; kind: 'pub' | 'force' | 'amend' | 'revoke'; label: string; id?: string; pdf?: string; }
 
@@ -28,6 +28,8 @@ const ORDER: RelationKind[] = ['revogado_por', 'alterado_por', 'altera', 'revoga
           <i class="fa fa-sitemap"></i> {{ 'dinfo.related' | t }} <span class="dinfo-count">{{ relCount() }}</span></button>
         <button type="button" role="tab" [class.active]="tab() === 'timeline'" [attr.aria-selected]="tab() === 'timeline'" (click)="tab.set('timeline')">
           <i class="fa fa-history"></i> {{ 'dinfo.timeline' | t }}</button>
+        <button type="button" role="tab" [class.active]="tab() === 'cases'" [attr.aria-selected]="tab() === 'cases'" (click)="tab.set('cases')">
+          <i class="fa fa-gavel"></i> {{ 'dinfo.cases' | t }} <span class="dinfo-count">{{ cases().length + templates().length }}</span></button>
       </div>
 
       @switch (tab()) {
@@ -76,6 +78,24 @@ const ORDER: RelationKind[] = ['revogado_por', 'alterado_por', 'altera', 'revoga
             </ul>
           } @empty { <p class="muted">{{ 'dinfo.noRelated' | t }}</p> }
         }
+        @case ('cases') {
+          @if (cases().length) {
+            <p class="dinfo-group"><i class="fa fa-gavel"></i> {{ 'case.title' | t }}</p>
+            <ul class="dinfo-rel">
+              @for (c of cases(); track c.id) {
+                <li><a [routerLink]="['/jurisprudencia', c.id]"><strong>{{ c.kind }} n.º {{ c.number }}</strong></a> <span class="muted">— {{ c.court }}, {{ c.date | dt }}</span>
+                  <span class="small muted d-block">{{ c.summary }}</span></li>
+              }
+            </ul>
+          }
+          @if (templates().length) {
+            <p class="dinfo-group"><i class="fa fa-file-text-o"></i> {{ 'tpl.title' | t }}</p>
+            <ul class="dinfo-rel">
+              @for (t of templates(); track t.id) { <li><a [routerLink]="['/minutas', t.id]"><strong>{{ t.title }}</strong></a> <span class="small muted d-block">{{ t.description }}</span></li> }
+            </ul>
+          }
+          @if (!cases().length && !templates().length) { <p class="muted">{{ 'dinfo.noCases' | t }}</p> }
+        }
         @case ('timeline') {
           <ol class="dinfo-tl">
             @for (e of events(); track $index) {
@@ -107,6 +127,9 @@ export class DiplomaInfo {
   protected groups = computed<Group[]>(() => ORDER
     .map(kind => ({ kind, items: this.rels().filter(x => x.r.kind === kind) }))
     .filter(g => g.items.length));
+
+  protected cases = computed(() => this.data.casesFor(this.d().id));
+  protected templates = computed(() => this.data.templatesFor(this.d().id));
 
   protected isReal = computed(() => ['dec-38088'].includes(this.d().id));
 

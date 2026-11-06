@@ -119,6 +119,29 @@ type Sort = 'relevance' | 'newest' | 'oldest';
         </div>
       }
 
+      <div class="kind-tabs" role="tablist">
+        <button type="button" role="tab" [class.active]="kind() === 'leg'" [attr.aria-selected]="kind() === 'leg'" (click)="kind.set('leg')"><i class="fa fa-book"></i> {{ 'search.kind.leg' | t }} <span class="dinfo-count">{{ results().length }}</span></button>
+        <button type="button" role="tab" [class.active]="kind() === 'case'" [attr.aria-selected]="kind() === 'case'" (click)="kind.set('case')"><i class="fa fa-gavel"></i> {{ 'case.title' | t }} <span class="dinfo-count">{{ caseHits().length }}</span></button>
+        <button type="button" role="tab" [class.active]="kind() === 'tpl'" [attr.aria-selected]="kind() === 'tpl'" (click)="kind.set('tpl')"><i class="fa fa-file-text-o"></i> {{ 'tpl.title' | t }} <span class="dinfo-count">{{ tplHits().length }}</span></button>
+      </div>
+
+      @if (kind() === 'case') {
+        <div class="case-list">
+          @for (c of caseHits(); track c.id) {
+            <a class="case-card" [routerLink]="['/jurisprudencia', c.id]">
+              <span class="case-top"><b>{{ c.court }}</b> · {{ c.chamber }}</span>
+              <span class="case-title">{{ c.kind }} n.º {{ c.number }} <span class="muted">· {{ c.date | dt }}</span></span>
+              <span class="case-sum">{{ c.summary }}</span>
+            </a>
+          } @empty { <p class="empty">{{ 'common.noRecords' | t }}</p> }
+        </div>
+      } @else if (kind() === 'tpl') {
+        <div class="tpl-grid">
+          @for (t of tplHits(); track t.id) {
+            <a class="tpl-card" [routerLink]="['/minutas', t.id]"><span class="tpl-cat">{{ t.category }}</span><b>{{ t.title }}</b><span class="small muted">{{ t.description }}</span></a>
+          } @empty { <p class="empty">{{ 'common.noRecords' | t }}</p> }
+        </div>
+      } @else {
       <div class="row-between">
         <span class="muted">{{ 'search.results' | t: { n: results().length } }}</span>
         <span class="row-gap">
@@ -136,6 +159,7 @@ type Sort = 'relevance' | 'newest' | 'oldest';
           <p class="empty">{{ 'common.noRecords' | t }}</p>
         }
       </div>
+      }
       @if (q().trim()) {
         <p class="ask-ai"><i class="fa fa-comments"></i> {{ 'search.askAi' | t }} <a routerLink="/consultor">{{ 'nav.consultant' | t }}</a></p>
       }
@@ -155,6 +179,19 @@ export class Search {
   protected q = signal(''); protected year = signal(''); protected type = signal(''); protected number = signal(''); protected areaId = signal('');
   protected scope = signal<Scope>('all'); protected mode = signal<Mode>('all'); protected sort = signal<Sort>('relevance');
   protected adv = signal(false);
+  protected kind = signal<'leg' | 'case' | 'tpl'>('leg');
+
+  /** Pesquisa transversal: as mesmas palavras na jurisprudência e nas minutas. */
+  private match(hay: string) {
+    const w = this.words(), h = normalize(hay);
+    if (!w.length) return true;
+    if (this.mode() === 'phrase') return h.includes(normalize(this.q().trim()));
+    return this.mode() === 'any' ? w.some(x => h.includes(x)) : w.every(x => h.includes(x));
+  }
+  protected caseHits = computed(() => this.data.cases().filter(c => (!this.areaId() || c.areaId === this.areaId()) &&
+    this.match([c.court, c.chamber, c.kind, c.number, c.summary, ...c.keywords, ...c.text].join(' '))));
+  protected tplHits = computed(() => this.data.templates().filter(t => (!this.areaId() || t.areaId === this.areaId()) &&
+    this.match([t.title, t.description, t.category, ...t.body].join(' '))));
   protected issuer = signal(''); protected status = signal(''); protected brNumber = signal(''); protected series = signal('');
   protected from = signal(''); protected to = signal(''); protected descriptor = signal(''); protected inForceOn = signal('');
 

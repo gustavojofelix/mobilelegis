@@ -21,7 +21,31 @@ export interface Article {
   note?: string;       // nota de alteração (ex: "Redacção dada pela Lei n.º 1/2018")
   history?: ArticleVersion[];
   annex?: string;      // referência a anexo
+  tables?: LegalTable[]; // tabelas no texto corrido
 }
+
+/** Tabela apresentada no próprio texto (em vez de "consultar anexo no texto oficial"). */
+export interface LegalTable { caption: string; head: string[]; rows: string[][]; source?: string; }
+
+/** Anexos, formulários e modelos ligados a um diploma (repositório). */
+export interface Attachment { name: string; kind: 'form' | 'table' | 'template' | 'pdf'; url?: string; templateId?: string; }
+
+export interface NormRef { diplomaId: string; articleId: string; label?: string; }
+
+export type CaseDecision = 'procedente' | 'improcedente' | 'parcial' | 'negado';
+export interface CaseLaw {
+  id: string; court: string; chamber: string; kind: string; number: string; process: string; date: string;
+  areaId: string; decision: CaseDecision; keywords: string[]; summary: string; text: string[]; norms: NormRef[]; addedAt?: string;
+}
+
+export interface TemplateField { key: string; label: string; placeholder?: string; type?: 'text' | 'date' | 'textarea'; }
+export interface LegalTemplate {
+  id: string; title: string; category: string; areaId: string; description: string;
+  fields: TemplateField[]; body: string[]; norms: NormRef[];
+}
+
+export interface Follows { areas: string[]; diplomas: string[]; }
+export interface AlertPrefs { email: boolean; push: boolean; digest: 'daily' | 'weekly'; }
 
 export interface Section { heading: string; articles: Article[]; }
 
@@ -60,6 +84,8 @@ export interface Diploma {
   descriptors?: string[];
   relations?: Relation[];
   textPending?: boolean;  // ficha publicada pelo Radar BR; texto integral ainda em tratamento
+  attachments?: Attachment[];
+  addedAt?: string;       // data em que entrou na plataforma (para as novidades)
 }
 
 export interface Device {
@@ -111,6 +137,9 @@ export interface User {
   transactions: Transaction[];
   annotations: Record<string, string>; // chave: diplomaId#articleId
   demoTrialExpired?: boolean;          // apenas para a demonstração
+  follows?: Follows;                   // alertas: áreas e diplomas seguidos
+  newsSeenAt?: string;
+  alertPrefs?: AlertPrefs;
 }
 
 export interface PlanPrice { months: number; price: number; }

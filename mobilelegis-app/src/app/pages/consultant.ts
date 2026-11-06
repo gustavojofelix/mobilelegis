@@ -62,6 +62,12 @@ const SUGGESTIONS = [
                       <a [routerLink]="['/diploma', c.diplomaId]" [fragment]="c.articleId" class="link-strong small">{{ 'ai.openArticle' | t }} <i class="fa fa-angle-right"></i></a>
                     </div>
                   }
+                  @if (m.answer!.cases?.length) {
+                    <p class="ai-cases-h"><i class="fa fa-gavel"></i> {{ 'ai.relatedCases' | t }}</p>
+                    @for (c of m.answer!.cases!; track c.id) {
+                      <a class="ai-case" [routerLink]="['/jurisprudencia', c.id]"><b>{{ c.label }}</b><span class="small muted">{{ c.summary }}</span></a>
+                    }
+                  }
                   <p class="small muted">{{ 'ai.answerOutro' | t }}</p>
                 } @else {
                   <p>{{ 'ai.noAnswer' | t }}</p>

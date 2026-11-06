@@ -29,6 +29,10 @@ interface Hit { article: Article; block: number; local: number; snippet: string;
             @if (canRead()) {
               <button type="button" class="icon-link" [class.active]="showNotes()" (click)="showNotes.set(!showNotes())" [title]="'diploma.myNotes' | t" [attr.aria-label]="'diploma.myNotes' | t"><i class="fa fa-sticky-note"></i></button>
             }
+            <button type="button" class="icon-link follow" [class.active]="auth.isFollowing(d.id)" (click)="auth.toggleFollow(d.id)"
+                    [title]="(auth.isFollowing(d.id) ? 'news.unfollow' : 'news.follow') | t" [attr.aria-label]="(auth.isFollowing(d.id) ? 'news.unfollow' : 'news.follow') | t">
+              <i class="fa" [class.fa-bell]="auth.isFollowing(d.id)" [class.fa-bell-o]="!auth.isFollowing(d.id)"></i>
+            </button>
             <button type="button" class="icon-link star" [class.active]="auth.isFavorite(d.id)" (click)="auth.toggleFavorite(d.id)"
                     [title]="(auth.isFavorite(d.id) ? 'favorites.remove' : 'favorites.add') | t" [attr.aria-label]="(auth.isFavorite(d.id) ? 'favorites.remove' : 'favorites.add') | t">
               <i class="fa" [class.fa-star]="auth.isFavorite(d.id)" [class.fa-star-o]="!auth.isFavorite(d.id)"></i>
@@ -137,6 +141,15 @@ interface Hit { article: Article; block: number; local: number; snippet: string;
                   <p class="art-num">{{ 'diploma.article' | t }} {{ a.number }}</p>
                   @if (a.heading) { <p class="art-head">(<span [innerHTML]="html(a, 0)"></span>)</p> }
                   @for (p of a.paragraphs; track $index) { <p class="lt-p" [innerHTML]="html(a, $index + 1)"></p> }
+                  @for (tb of a.tables ?? []; track tb.caption) {
+                    <div class="lt-table-wrap">
+                      <table class="lt-table">
+                        <caption>{{ tb.caption }}</caption>
+                        <thead><tr>@for (h of tb.head; track $index) { <th scope="col">{{ h }}</th> }</tr></thead>
+                        <tbody>@for (r of tb.rows; track $index) { <tr>@for (c of r; track $index) { <td [attr.data-label]="tb.head[$index]">{{ c }}</td> }</tr> }</tbody>
+                      </table>
+                    </div>
+                  }
                   @if (a.note) { <p class="art-note">[{{ a.note }}]</p> }
                   @if (a.annex) { <p class="art-note">{{ 'diploma.annexNote' | t: { name: a.annex } }}</p> }
 
@@ -154,6 +167,9 @@ interface Hit { article: Article; block: number; local: number; snippet: string;
 
                   <div class="art-actions">
                     <button type="button" class="link-btn" (click)="editNote(a.id)"><i class="fa fa-sticky-note-o"></i> {{ 'diploma.addNote' | t }}</button>
+                    @if (data.casesFor(d.id, a.id).length; as n) {
+                      <a class="link-btn case-link" [routerLink]="['/jurisprudencia']" [queryParams]="{ norma: d.id + '#' + a.id }"><i class="fa fa-gavel"></i> {{ 'case.nDecisions' | t: { n: n } }}</a>
+                    }
                     <button type="button" class="link-btn" (click)="copy(a)"><i class="fa" [class.fa-check]="copied() === a.id" [class.fa-files-o]="copied() !== a.id"></i> {{ (copied() === a.id ? 'diploma.copied' : 'diploma.copy') | t }}</button>
                   </div>
 
@@ -171,10 +187,19 @@ interface Hit { article: Article; block: number; local: number; snippet: string;
                 </section>
               }
             }
-            @if (d.annexes.length) {
+            @if (d.annexes.length || d.attachments?.length) {
               <p class="lt-section">{{ 'diploma.annexes' | t }}</p>
               <ul class="annex-list">
                 @for (x of d.annexes; track x) { <li><i class="fa fa-paperclip"></i> {{ x }}</li> }
+                @for (x of d.attachments ?? []; track x.name) {
+                  <li>
+                    @if (x.templateId) {
+                      <a [routerLink]="['/minutas', x.templateId]"><i class="fa fa-file-text-o"></i> {{ x.name }}</a> <span class="tag tag-ok">{{ 'tpl.fillOnline' | t }}</span>
+                    } @else {
+                      <a [href]="x.url" target="_blank" rel="noopener"><i class="fa fa-file-pdf-o"></i> {{ x.name }}</a> <span class="tag tag-alterado">{{ ('attach.' + x.kind) | t }}</span>
+                    }
+                  </li>
+                }
               </ul>
             }
           </article>

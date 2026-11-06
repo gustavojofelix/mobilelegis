@@ -1,7 +1,7 @@
 import { Injectable, computed, inject, signal } from '@angular/core';
 import { Router } from '@angular/router';
 import { DataService } from './data.service';
-import { Device, Diploma, PaymentMethod, PlanType, Transaction, User, Voucher } from './models';
+import { AlertPrefs, Device, Diploma, Follows, PaymentMethod, PlanType, Transaction, User, Voucher } from './models';
 
 const USERS_KEY = 'ml.users.v2';
 const SESSION_KEY = 'ml.session';
@@ -136,6 +136,30 @@ export class AuthService {
   inCart(id: string) { return !!this.user()?.cart.includes(id); }
   addToCart(id: string) { this.update(u => { if (!u.cart.includes(id) && !u.purchases.includes(id)) u.cart.push(id); }); }
   removeFromCart(id: string) { this.update(u => u.cart = u.cart.filter(x => x !== id)); }
+
+  // ---------- Alertas / novidades ----------
+  /** Por omissão, segue as áreas a que tem acesso (subscrição ou período de teste). */
+  follows(): Follows {
+    const u = this.user();
+    if (u?.follows) return u.follows;
+    const areas = this.accessibleAreas();
+    return { areas: areas ?? this.data.areas().map(a => a.id), diplomas: [...(u?.favorites ?? [])] };
+  }
+  isFollowing(diplomaId: string) { return this.follows().diplomas.includes(diplomaId); }
+  followsArea(areaId: string) { return this.follows().areas.includes(areaId); }
+  toggleFollow(diplomaId: string) {
+    const f = this.follows();
+    const diplomas = f.diplomas.includes(diplomaId) ? f.diplomas.filter(x => x !== diplomaId) : [...f.diplomas, diplomaId];
+    this.update(u => u.follows = { ...f, diplomas });
+  }
+  toggleFollowArea(areaId: string) {
+    const f = this.follows();
+    const areas = f.areas.includes(areaId) ? f.areas.filter(x => x !== areaId) : [...f.areas, areaId];
+    this.update(u => u.follows = { ...f, areas });
+  }
+  alertPrefs(): AlertPrefs { return this.user()?.alertPrefs ?? { email: true, push: false, digest: 'daily' }; }
+  setAlertPrefs(p: Partial<AlertPrefs>) { const cur = this.alertPrefs(); this.update(u => u.alertPrefs = { ...cur, ...p }); }
+  markNewsSeen() { this.update(u => u.newsSeenAt = new Date().toISOString()); }
 
   isFavorite(id: string) { return !!this.user()?.favorites.includes(id); }
   toggleFavorite(id: string) {

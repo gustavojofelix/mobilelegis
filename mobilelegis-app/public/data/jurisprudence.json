@@ -1,0 +1,108 @@
+[
+ {
+  "id": "ts-lab-2024-001",
+  "court": "Tribunal Supremo", "chamber": "Secção do Trabalho", "kind": "Acórdão",
+  "number": "00/2024 (exemplo)", "process": "Proc. n.º 000/2023-L (exemplo)", "date": "2024-09-18",
+  "areaId": "laboral", "decision": "negado",
+  "keywords": ["Despedimento com justa causa", "Processo disciplinar", "Proporcionalidade"],
+  "summary": "O despedimento com justa causa exige processo disciplinar prévio e proporcionalidade entre a infracção e a sanção. Faltas injustificadas pontuais, sem prejuízo grave para a empresa, não bastam para tornar impossível a manutenção da relação de trabalho.",
+  "text": [
+   "O empregador recorreu da sentença que declarou ilícito o despedimento do trabalhador, alegando que as faltas dadas constituíam justa causa.",
+   "Entende este Tribunal que a justa causa pressupõe um comportamento culposo do trabalhador que, pela sua gravidade e consequências, torne imediata e praticamente impossível a subsistência da relação de trabalho.",
+   "No caso, as três faltas injustificadas, num período de dois anos e sem registo disciplinar anterior, não preenchem esse requisito. A sanção aplicada mostra-se desproporcionada.",
+   "Pelo exposto, nega-se provimento ao recurso, mantendo-se a decisão recorrida."
+  ],
+  "norms": [ { "diplomaId": "lei-13-2023", "articleId": "art-130" }, { "diplomaId": "lei-13-2023", "articleId": "art-47" } ],
+  "addedAt": "2026-10-30"
+ },
+ {
+  "id": "ta-adm-2022-014",
+  "court": "Tribunal Administrativo", "chamber": "1.ª Secção (Contencioso Administrativo)", "kind": "Acórdão",
+  "number": "14/2022 (exemplo)", "process": "Proc. n.º 000/2021-1.ª (exemplo)", "date": "2022-05-11",
+  "areaId": "civil-penal-adm", "decision": "procedente",
+  "keywords": ["Dever de decisão", "Silêncio da Administração", "Legalidade"],
+  "summary": "A Administração Pública tem o dever de decidir os pedidos que lhe são apresentados. O silêncio prolongado viola o dever de decisão e o princípio da legalidade, podendo o particular reagir judicialmente.",
+  "text": [
+   "O requerente apresentou um pedido de licença ao qual a entidade administrativa não respondeu no prazo legal.",
+   "As normas de funcionamento da Administração Pública impõem o dever de decisão sobre todos os assuntos da sua competência que lhe sejam apresentados pelos particulares.",
+   "A omissão de decisão constitui violação do dever legal, condenando-se a entidade a decidir no prazo de trinta dias."
+  ],
+  "norms": [ { "diplomaId": "lei-14-2011", "articleId": "art-10" }, { "diplomaId": "lei-14-2011", "articleId": "art-4" } ],
+  "addedAt": "2026-09-02"
+ },
+ {
+  "id": "ts-crim-2021-033",
+  "court": "Tribunal Supremo", "chamber": "Secção Criminal", "kind": "Acórdão",
+  "number": "33/2021 (exemplo)", "process": "Proc. n.º 000/2020-C (exemplo)", "date": "2021-03-24",
+  "areaId": "civil-penal-adm", "decision": "parcial",
+  "keywords": ["Furto", "Aplicação da lei penal no tempo", "Lei mais favorável"],
+  "summary": "Sucedendo-se no tempo duas leis penais, aplica-se o regime que concretamente se mostrar mais favorável ao arguido. A entrada em vigor do novo Código Penal obriga a reapreciar a medida da pena dos processos pendentes.",
+  "text": [
+   "O arguido foi condenado por crime de furto ao abrigo do Código Penal anterior.",
+   "Com a entrada em vigor da Lei n.º 24/2019, impõe-se comparar os dois regimes e aplicar o que, em concreto, for mais favorável ao arguido.",
+   "O novo regime prevê moldura penal menos gravosa para o caso, pelo que se reduz a pena aplicada."
+  ],
+  "norms": [ { "diplomaId": "lei-24-2019", "articleId": "art-2" }, { "diplomaId": "lei-24-2019", "articleId": "art-268" } ],
+  "addedAt": "2026-08-15"
+ },
+ {
+  "id": "ts-civ-2023-007",
+  "court": "Tribunal Supremo", "chamber": "Secção Cível", "kind": "Acórdão",
+  "number": "07/2023 (exemplo)", "process": "Proc. n.º 000/2022-CV (exemplo)", "date": "2023-11-08",
+  "areaId": "civil-penal-adm", "decision": "procedente",
+  "keywords": ["União de facto", "Prova da convivência", "Efeitos patrimoniais"],
+  "summary": "A união de facto pode ser provada por qualquer meio admitido em direito. Demonstrada a convivência em condições análogas às dos cônjuges pelo período legal, os bens adquiridos durante a união regem-se pelas regras da comunhão de adquiridos.",
+  "text": [
+   "A recorrente pediu o reconhecimento da união de facto mantida durante onze anos e a partilha dos bens adquiridos nesse período.",
+   "Os depoimentos das testemunhas e os documentos juntos demonstram a convivência estável e pública do casal.",
+   "Reconhece-se a união de facto e determina-se a partilha dos bens segundo as regras da comunhão de adquiridos."
+  ],
+  "norms": [ { "diplomaId": "lei-22-2019", "articleId": "art-202" } ],
+  "addedAt": "2026-07-20"
+ },
+ {
+  "id": "cc-2019-002",
+  "court": "Conselho Constitucional", "chamber": "Plenário", "kind": "Acórdão",
+  "number": "02/CC/2019 (exemplo)", "process": "Proc. n.º 00/CC/2019 (exemplo)", "date": "2019-04-03",
+  "areaId": "civil-penal-adm", "decision": "improcedente",
+  "keywords": ["Descentralização", "Revisão constitucional", "Fiscalização da constitucionalidade"],
+  "summary": "A lei que concretiza o modelo de descentralização introduzido pela revisão pontual da Constituição de 2018 é conforme à Constituição, desde que respeite a unidade do Estado e os limites fixados no artigo 270.",
+  "text": [
+   "Foi requerida a fiscalização da constitucionalidade de normas sobre a organização dos órgãos descentralizados.",
+   "O Conselho entende que as normas impugnadas respeitam os princípios da descentralização consagrados na revisão pontual da Constituição.",
+   "Não se declara a inconstitucionalidade das normas apreciadas."
+  ],
+  "norms": [ { "diplomaId": "crm-2004", "articleId": "art-270" }, { "diplomaId": "lei-1-2018", "articleId": "art-1" } ],
+  "addedAt": "2026-06-10"
+ },
+ {
+  "id": "ta-fis-2023-041",
+  "court": "Tribunal Administrativo", "chamber": "3.ª Secção (Contencioso Fiscal e Aduaneiro)", "kind": "Acórdão",
+  "number": "41/2023 (exemplo)", "process": "Proc. n.º 000/2023-3.ª (exemplo)", "date": "2023-10-04",
+  "areaId": "fiscal", "decision": "procedente",
+  "keywords": ["IVA", "Alteração de taxa", "Facto gerador"],
+  "summary": "A taxa de IVA aplicável é a que vigora no momento em que o imposto se torna exigível. Operações realizadas em 2023 estão sujeitas à taxa de 16%, ainda que facturadas com base em contratos celebrados antes da alteração.",
+  "text": [
+   "A Autoridade Tributária liquidou IVA à taxa de 17% sobre serviços prestados em Fevereiro de 2023.",
+   "A redacção do artigo 17 dada pela Lei n.º 22/2022 aplica-se às operações cujo imposto se torne exigível a partir da sua entrada em vigor.",
+   "Anula-se a liquidação na parte que excede a taxa de 16%."
+  ],
+  "norms": [ { "diplomaId": "lei-32-2007", "articleId": "art-17" } ],
+  "addedAt": "2026-11-03"
+ },
+ {
+  "id": "tj-com-2025-112",
+  "court": "Tribunal Judicial da Cidade de Maputo", "chamber": "Secção Comercial", "kind": "Sentença",
+  "number": "112/2025 (exemplo)", "process": "Proc. n.º 000/2025-COM (exemplo)", "date": "2025-02-19",
+  "areaId": "actividades", "decision": "improcedente",
+  "keywords": ["Contrato de sociedade", "Forma escrita", "Nulidade"],
+  "summary": "O contrato de sociedade está sujeito a forma escrita. Um acordo verbal entre sócios não produz os efeitos de uma sociedade comercial regularmente constituída.",
+  "text": [
+   "O autor pediu que fosse reconhecida a sua qualidade de sócio de uma sociedade por quotas, com base num acordo verbal.",
+   "O Código Comercial exige forma escrita para o contrato de sociedade, pelo que o acordo invocado não basta.",
+   "Julga-se a acção improcedente, sem prejuízo de o autor reclamar o que entregou por outra via."
+  ],
+  "norms": [ { "diplomaId": "dl-2-2005", "articleId": "art-90" }, { "diplomaId": "dl-2-2005", "articleId": "art-82" } ],
+  "addedAt": "2026-05-12"
+ }
+]

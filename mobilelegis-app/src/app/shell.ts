@@ -3,6 +3,7 @@ import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router
 import { toSignal } from '@angular/core/rxjs-interop';
 import { filter, map } from 'rxjs';
 import { AuthService } from './core/auth.service';
+import { NewsService } from './core/news.service';
 import { I18N_PIPES } from './core/pipes';
 import { LangSwitch } from './shared/lang-switch';
 import { ThemeToggle } from './shared/theme-toggle';
@@ -24,6 +25,8 @@ import { ThemeToggle } from './shared/theme-toggle';
         </div>
         <nav class="topbar-right" aria-label="Menu">
           <a routerLink="/consultor" class="icon-link ai-link" [attr.aria-label]="'nav.consultant' | t" [title]="'nav.consultant' | t"><i class="fa fa-comments fa-lg"></i></a>
+          <a routerLink="/novidades" class="icon-link bell" [attr.aria-label]="'news.title' | t" [title]="'news.title' | t">
+            <i class="fa fa-bell fa-lg"></i>@if (news.unread()) { <span class="cart-badge">{{ news.unread() }}</span> }</a>
           <a routerLink="/pesquisa" class="icon-link" [attr.aria-label]="'nav.search' | t" [title]="'nav.search' | t"><i class="fa fa-search fa-lg"></i></a>
           <a routerLink="/carrinho" class="icon-link cart" [attr.aria-label]="'nav.cart' | t" [title]="'nav.cart' | t">
             <i class="fa fa-shopping-cart fa-lg"></i><span class="cart-badge">{{ auth.cartCount() }}</span>
@@ -79,6 +82,9 @@ import { ThemeToggle } from './shared/theme-toggle';
             <i class="fa fa-cog menu-ico"></i>
             <a routerLink="/favoritos">{{ 'nav.favorites' | t }}</a>
             <a routerLink="/consultor">{{ 'nav.consultant' | t }}</a>
+            <a routerLink="/jurisprudencia">{{ 'case.title' | t }}</a>
+            <a routerLink="/minutas">{{ 'tpl.title' | t }}</a>
+            <a routerLink="/novidades">{{ 'news.title' | t }}</a>
           </section>
           <section class="menu-prefs">
             <i class="fa fa-sliders menu-ico"></i>
@@ -108,6 +114,7 @@ import { ThemeToggle } from './shared/theme-toggle';
 })
 export class Shell {
   protected auth = inject(AuthService);
+  protected news = inject(NewsService);
   private router = inject(Router);
   protected menuOpen = signal(false);
   protected isHome = toSignal(

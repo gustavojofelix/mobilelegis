@@ -80,7 +80,13 @@
     "subtitle1": "Sur quelle législation allez-vous travailler aujourd'hui ?",
     "subtitle2": "Ci-dessous, quelques raccourcis vers les différentes applications Mobilelegis.",
     "unlocked": "Domaine débloqué",
-    "buyable": "Vous pouvez acheter des textes de ce domaine"
+    "buyable": "Vous pouvez acheter des textes de ce domaine",
+    "tools": "Outils",
+    "toolAi": "Posez votre question",
+    "toolCases": "{{n}} décisions",
+    "toolTpl": "{{n}} modèles à remplir",
+    "toolNews": "Rien de non lu",
+    "toolNewsN": "{{n}} non lues"
   },
   "diploma": {
     "purchased": "Acheté",
@@ -163,7 +169,10 @@
       "newest": "Plus récents",
       "oldest": "Plus anciens"
     },
-    "askAi": "Pas trouvé ? Posez la question avec vos mots au"
+    "askAi": "Pas trouvé ? Posez la question avec vos mots au",
+    "kind": {
+      "leg": "Législation"
+    }
   },
   "plans": {
     "basic": "Offre Basique",
@@ -547,7 +556,8 @@
     "placeholder": "Écrivez votre question juridique…",
     "send": "Envoyer",
     "disclaimer": "Prototype. Ne remplace pas un conseil juridique.",
-    "clear": "Effacer la conversation"
+    "clear": "Effacer la conversation",
+    "relatedCases": "Jurisprudence appliquant ces articles"
   },
   "dinfo": {
     "card": "Fiche",
@@ -584,6 +594,74 @@
       "force": "Entrée en vigueur",
       "amend": "Modifié par",
       "revoke": "Abrogé par"
-    }
+    },
+    "cases": "Jurisprudence et modèles",
+    "noCases": "Pas encore de jurisprudence ni de modèles liés à ce texte."
+  },
+  "case": {
+    "title": "Jurisprudence",
+    "demoNote": "Prototype : les décisions présentées sont des exemples fictifs de démonstration, pas de la jurisprudence réelle.",
+    "searchPh": "Ex. : licenciement pour faute",
+    "court": "Tribunal",
+    "kind": "Type de décision",
+    "decision": "Sens de la décision",
+    "dec": {
+      "procedente": "Fondé",
+      "parcial": "Partiellement fondé",
+      "improcedente": "Non fondé",
+      "negado": "Pourvoi rejeté"
+    },
+    "appliesNorm": "Applique",
+    "summary": "Sommaire",
+    "norms": "Normes appliquées",
+    "related": "Décisions liées",
+    "nDecisions": "{{n}} décision(s)"
+  },
+  "tpl": {
+    "title": "Modèles et formulaires",
+    "subtitle": "Modèles de documents juridiques liés à la législation en vigueur. Remplissez les champs et téléchargez en Word.",
+    "searchPh": "Rechercher des modèles (ex. : contrat, procuration)",
+    "nFields": "{{n}} champs",
+    "nNorms": "{{n}} normes",
+    "fill": "Remplir",
+    "clear": "Effacer les champs",
+    "basis": "Base légale",
+    "word": "Télécharger Word",
+    "print": "Imprimer",
+    "fillOnline": "Remplir en ligne",
+    "disclaimer": "Modèles de référence. Adaptez-les au cas concret et faites-les vérifier par un juriste avant usage."
+  },
+  "attach": {
+    "form": "Formulaire",
+    "table": "Tableau",
+    "template": "Modèle",
+    "pdf": "PDF"
+  },
+  "news": {
+    "title": "Nouveautés",
+    "mine": "Pour moi",
+    "all": "Tout",
+    "settings": "Alertes",
+    "follow": "Suivre les modifications",
+    "unfollow": "Ne plus suivre",
+    "followAreas": "Domaines suivis",
+    "followDiplomas": "Textes suivis",
+    "noDiplomas": "Vous ne suivez aucun texte. Utilisez la cloche sur la page d’un texte.",
+    "channels": "Comment être averti",
+    "email": "Par e-mail ({{email}})",
+    "push": "Notification sur l’application mobile",
+    "daily": "Résumé quotidien",
+    "weekly": "Résumé hebdomadaire",
+    "channelsNote": "Prototype : les préférences sont enregistrées, mais l’envoi est simulé.",
+    "kind": {
+      "new": "Nouveau texte",
+      "amend": "Modification",
+      "case": "Jurisprudence"
+    },
+    "amendTitle": "Modifié : {{name}}",
+    "reasonArea": "Vous suivez « {{name}} »",
+    "reasonDiploma": "Vous suivez {{name}}",
+    "unread": "Non lu",
+    "empty": "Rien de nouveau ces 120 derniers jours."
   }
 }

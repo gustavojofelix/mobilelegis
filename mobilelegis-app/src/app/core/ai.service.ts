@@ -7,7 +7,8 @@ export interface Citation {
   diplomaId: string; articleId: string; diploma: string; article: string; heading: string;
   excerpt: string; locked: boolean; revoked: boolean; note?: string;
 }
-export interface AiAnswer { found: boolean; citations: Citation[]; terms: string[]; }
+export interface CaseRef { id: string; label: string; summary: string; }
+export interface AiAnswer { found: boolean; citations: Citation[]; terms: string[]; cases?: CaseRef[]; }
 
 const STOP = new Set(('a o as os um uma uns umas de do da dos das em no na nos nas por pelo pela pelos pelas para com sem sob ' +
   'que qual quais quem quando como onde porque porquê se e ou mas é são ser ter tem têm há foi está estão isso isto esse essa ' +
@@ -69,6 +70,10 @@ export class AiService {
     // Se a pergunta cita números de artigo, fica-se só com esses artigos
     const pool = scored.some(x => x.num) ? scored.filter(x => x.num) : scored;
     const top = pool.filter(x => x.score >= pool[0]?.score * 0.45).slice(0, 4).map(x => x.c);
-    return { found: top.length > 0, citations: top, terms };
+    // Jurisprudência que aplica os artigos citados (mesma regra: só o que está na plataforma)
+    const cases = this.data.cases()
+      .filter(c => c.norms.some(n => top.some(t => t.diplomaId === n.diplomaId && t.articleId === n.articleId)))
+      .slice(0, 3).map(c => ({ id: c.id, label: `${c.kind} n.º ${c.number} — ${c.court}`, summary: c.summary }));
+    return { found: top.length > 0, citations: top, terms, cases };
   }
 }

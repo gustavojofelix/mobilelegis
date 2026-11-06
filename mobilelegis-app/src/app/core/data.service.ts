@@ -1,7 +1,7 @@
 import { Injectable, inject, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { Area, Article, Diploma, Plan, Relation, RelationKind, User, Voucher } from './models';
+import { Area, Article, CaseLaw, Diploma, LegalTemplate, Plan, Relation, RelationKind, User, Voucher } from './models';
 
 const PUBLISHED_KEY = 'ml.bo.published';
 
@@ -18,12 +18,17 @@ export class DataService {
   readonly diplomas = signal<Diploma[]>([]);
   readonly plansData = signal<PlansData>({ trialDays: 14, plans: [], vouchers: [] });
   readonly seedUsers = signal<User[]>([]);
+  readonly cases = signal<CaseLaw[]>([]);
+  readonly templates = signal<LegalTemplate[]>([]);
 
   async init(): Promise<void> {
     const get = <T>(f: string) => firstValueFrom(this.http.get<T>(`data/${f}.json`));
-    const [areas, diplomas, plans, users] = await Promise.all([
+    const [areas, diplomas, plans, users, cases, templates] = await Promise.all([
       get<Area[]>('areas'), get<Diploma[]>('diplomas'), get<PlansData>('plans'), get<User[]>('users'),
+      get<CaseLaw[]>('jurisprudence'), get<LegalTemplate[]>('templates'),
     ]);
+    this.cases.set(cases.sort((a, b) => b.date.localeCompare(a.date)));
+    this.templates.set(templates);
     this.areas.set(areas);
     // Diplomas publicados no back office (guardados no navegador)
     let published: Diploma[] = [];
@@ -35,6 +40,7 @@ export class DataService {
 
   /** Publica (ou substitui) um diploma vindo do back office. */
   upsertDiploma(d: Diploma) {
+    d = { ...d, addedAt: d.addedAt ?? new Date().toISOString() };
     this.diplomas.update(list => [...list.filter(x => x.id !== d.id), d]);
     this.savePublished(list => [...list.filter(x => x.id !== d.id), d]);
   }
@@ -85,6 +91,20 @@ export class DataService {
       if (seen.has(k)) return false;
       seen.add(k); return true;
     });
+  }
+
+  caseLaw(id: string) { return this.cases().find(c => c.id === id); }
+  template(id: string) { return this.templates().find(t => t.id === id); }
+  /** Decisões que aplicam um diploma (ou um artigo concreto). */
+  casesFor(diplomaId: string, articleId?: string) {
+    return this.cases().filter(c => c.norms.some(n => n.diplomaId === diplomaId && (!articleId || n.articleId === articleId)));
+  }
+  templatesFor(diplomaId: string) { return this.templates().filter(t => t.norms.some(n => n.diplomaId === diplomaId)); }
+  /** Rótulo de uma norma: "Lei n.º 13/2023 — art. 130". */
+  normLabel(n: { diplomaId: string; articleId: string; label?: string }) {
+    const d = this.diploma(n.diplomaId), a = d ? this.articles(d).find(x => x.id === n.articleId) : undefined;
+    if (!d) return n.label ?? n.diplomaId;
+    return `${d.heading.split(',')[0]} — art. ${a?.number ?? n.articleId.replace('art-', '')}${a?.heading ? ' (' + a.heading + ')' : ''}`;
   }
 
   diplomasIn(areaId: string, categoryId: string, subcategoryId: string) {

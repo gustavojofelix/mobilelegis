@@ -1,0 +1,148 @@
+[
+ {
+  "id": "contrato-trabalho",
+  "title": "Contrato de trabalho por tempo indeterminado",
+  "category": "Laboral", "areaId": "laboral",
+  "description": "Contrato individual de trabalho com período probatório, horário, retribuição e férias.",
+  "fields": [
+   { "key": "empregador", "label": "Empregador (nome ou firma)", "placeholder": "Empresa Exemplo, Lda" },
+   { "key": "nuitEmpregador", "label": "NUIT do empregador", "placeholder": "400000000" },
+   { "key": "trabalhador", "label": "Nome do trabalhador", "placeholder": "Nome completo" },
+   { "key": "biTrabalhador", "label": "N.º do BI do trabalhador", "placeholder": "110100000000A" },
+   { "key": "funcao", "label": "Função", "placeholder": "Técnico administrativo" },
+   { "key": "local", "label": "Local de trabalho", "placeholder": "Maputo" },
+   { "key": "salario", "label": "Salário mensal (MZN)", "placeholder": "25 000,00" },
+   { "key": "inicio", "label": "Data de início", "type": "date" }
+  ],
+  "body": [
+   "CONTRATO DE TRABALHO POR TEMPO INDETERMINADO",
+   "Entre {{empregador}}, NUIT {{nuitEmpregador}}, adiante designado por Empregador, e {{trabalhador}}, portador do BI n.º {{biTrabalhador}}, adiante designado por Trabalhador, é celebrado o presente contrato de trabalho, que se rege pelas cláusulas seguintes e pela Lei do Trabalho.",
+   "Cláusula 1.ª (Objecto) — O Trabalhador obriga-se a prestar ao Empregador, sob a sua autoridade e direcção, a actividade correspondente à função de {{funcao}}.",
+   "Cláusula 2.ª (Local de trabalho) — A actividade é prestada em {{local}}.",
+   "Cláusula 3.ª (Início e duração) — O contrato tem início em {{inicio}} e é celebrado por tempo indeterminado.",
+   "Cláusula 4.ª (Período probatório) — O contrato fica sujeito ao período probatório previsto na lei, durante o qual qualquer das partes o pode fazer cessar nos termos legais.",
+   "Cláusula 5.ª (Horário) — O período normal de trabalho não excede os limites legais de duração diária e semanal.",
+   "Cláusula 6.ª (Retribuição) — O Trabalhador aufere o salário mensal de {{salario}} MZN, pago até ao último dia útil de cada mês.",
+   "Cláusula 7.ª (Férias) — O Trabalhador tem direito a férias remuneradas nos termos da lei.",
+   "Feito em duplicado, ficando cada parte com um exemplar.",
+   "{{local}}, ____ de ____________ de ______",
+   "O Empregador: ______________________        O Trabalhador: ______________________"
+  ],
+  "norms": [ { "diplomaId": "lei-13-2023", "articleId": "art-3" }, { "diplomaId": "lei-13-2023", "articleId": "art-47" }, { "diplomaId": "lei-13-2023", "articleId": "art-85" }, { "diplomaId": "lei-13-2023", "articleId": "art-98" } ]
+ },
+ {
+  "id": "nota-culpa",
+  "title": "Nota de culpa (processo disciplinar)",
+  "category": "Laboral", "areaId": "laboral",
+  "description": "Comunicação ao trabalhador dos factos de que é acusado, com prazo para defesa.",
+  "fields": [
+   { "key": "empregador", "label": "Empregador", "placeholder": "Empresa Exemplo, Lda" },
+   { "key": "trabalhador", "label": "Trabalhador", "placeholder": "Nome completo" },
+   { "key": "factos", "label": "Descrição dos factos", "type": "textarea", "placeholder": "Nos dias … o trabalhador …" },
+   { "key": "prazo", "label": "Prazo para defesa (dias)", "placeholder": "15" },
+   { "key": "local", "label": "Local", "placeholder": "Maputo" }
+  ],
+  "body": [
+   "NOTA DE CULPA",
+   "Ex.mo(a) Senhor(a) {{trabalhador}},",
+   "{{empregador}} instaurou contra V. Ex.ª processo disciplinar com intenção de despedimento com justa causa, com base nos seguintes factos:",
+   "{{factos}}",
+   "Os factos descritos podem constituir infracção disciplinar grave. Dispõe V. Ex.ª de {{prazo}} dias para consultar o processo e apresentar a sua defesa por escrito, podendo juntar documentos e indicar testemunhas.",
+   "{{local}}, ____ de ____________ de ______",
+   "A Direcção: ______________________"
+  ],
+  "norms": [ { "diplomaId": "lei-13-2023", "articleId": "art-130" } ]
+ },
+ {
+  "id": "procuracao",
+  "title": "Procuração com poderes forenses",
+  "category": "Procurações", "areaId": "civil-penal-adm",
+  "description": "Mandato a advogado para representação em juízo, com ou sem poderes especiais.",
+  "fields": [
+   { "key": "mandante", "label": "Mandante (nome)", "placeholder": "Nome completo" },
+   { "key": "biMandante", "label": "N.º do BI do mandante", "placeholder": "110100000000A" },
+   { "key": "morada", "label": "Morada do mandante", "placeholder": "Av. … , Maputo" },
+   { "key": "advogado", "label": "Advogado(a)", "placeholder": "Dr.(a) …" },
+   { "key": "cedula", "label": "Cédula profissional (OAM)", "placeholder": "0000" },
+   { "key": "especiais", "label": "Poderes especiais (opcional)", "placeholder": "confessar, desistir e transigir" },
+   { "key": "local", "label": "Local", "placeholder": "Maputo" }
+  ],
+  "body": [
+   "PROCURAÇÃO",
+   "{{mandante}}, portador(a) do BI n.º {{biMandante}}, residente em {{morada}}, constitui seu bastante procurador(a) {{advogado}}, advogado(a) com a cédula profissional n.º {{cedula}}, a quem confere os mais amplos poderes forenses em direito permitidos, incluindo os especiais para {{especiais}}.",
+   "{{local}}, ____ de ____________ de ______",
+   "______________________ (assinatura do mandante)"
+  ],
+  "norms": [ { "diplomaId": "dl-44129", "articleId": "art-1", "label": "Código de Processo Civil (mandato judicial)" } ]
+ },
+ {
+  "id": "requerimento-adm",
+  "title": "Requerimento à Administração Pública (pedido de decisão)",
+  "category": "Requerimentos", "areaId": "civil-penal-adm",
+  "description": "Pedido dirigido a um órgão da Administração, invocando o dever de decisão.",
+  "fields": [
+   { "key": "orgao", "label": "Órgão destinatário", "placeholder": "Ex.mo Senhor Director Nacional de …" },
+   { "key": "requerente", "label": "Requerente", "placeholder": "Nome completo" },
+   { "key": "nuit", "label": "NUIT do requerente", "placeholder": "100000000" },
+   { "key": "pedido", "label": "O que pede", "type": "textarea", "placeholder": "a emissão de …" },
+   { "key": "dataPedido", "label": "Data do pedido inicial (se houver)", "type": "date" },
+   { "key": "local", "label": "Local", "placeholder": "Maputo" }
+  ],
+  "body": [
+   "{{orgao}}",
+   "{{requerente}}, NUIT {{nuit}}, vem, nos termos das Normas de Funcionamento dos Serviços da Administração Pública, requerer a V. Ex.ª {{pedido}}.",
+   "O requerente apresentou pedido sobre esta matéria em {{dataPedido}}, sem que até à data tenha sido proferida decisão. Lembra-se o dever de decisão que impende sobre a Administração e o princípio da legalidade.",
+   "Pede deferimento.",
+   "{{local}}, ____ de ____________ de ______",
+   "O Requerente: ______________________"
+  ],
+  "norms": [ { "diplomaId": "lei-14-2011", "articleId": "art-10" }, { "diplomaId": "lei-14-2011", "articleId": "art-4" } ]
+ },
+ {
+  "id": "declaracao-uniao-facto",
+  "title": "Declaração de união de facto",
+  "category": "Família", "areaId": "civil-penal-adm",
+  "description": "Declaração conjunta dos unidos de facto, com testemunhas.",
+  "fields": [
+   { "key": "pessoa1", "label": "Primeiro declarante", "placeholder": "Nome completo" },
+   { "key": "pessoa2", "label": "Segundo declarante", "placeholder": "Nome completo" },
+   { "key": "desde", "label": "Vivem juntos desde", "type": "date" },
+   { "key": "morada", "label": "Morada comum", "placeholder": "Bairro …, Maputo" },
+   { "key": "local", "label": "Local", "placeholder": "Maputo" }
+  ],
+  "body": [
+   "DECLARAÇÃO DE UNIÃO DE FACTO",
+   "{{pessoa1}} e {{pessoa2}} declaram, sob compromisso de honra, que vivem em união de facto, em comunhão de mesa, leito e habitação, desde {{desde}}, na morada {{morada}}.",
+   "Declaram ainda que não existe entre si impedimento que obste à celebração de casamento.",
+   "{{local}}, ____ de ____________ de ______",
+   "Os declarantes: ______________________   ______________________",
+   "Testemunhas: ______________________   ______________________"
+  ],
+  "norms": [ { "diplomaId": "lei-22-2019", "articleId": "art-202" }, { "diplomaId": "lei-22-2019", "articleId": "art-31" } ]
+ },
+ {
+  "id": "contrato-sociedade-quotas",
+  "title": "Contrato de sociedade por quotas (minuta simplificada)",
+  "category": "Societário", "areaId": "actividades",
+  "description": "Pacto social base: firma, sede, objecto, capital, quotas e gerência.",
+  "fields": [
+   { "key": "firma", "label": "Firma", "placeholder": "Exemplo, Limitada" },
+   { "key": "sede", "label": "Sede", "placeholder": "Maputo" },
+   { "key": "objecto", "label": "Objecto social", "type": "textarea", "placeholder": "a prestação de serviços de …" },
+   { "key": "capital", "label": "Capital social (MZN)", "placeholder": "100 000,00" },
+   { "key": "socio1", "label": "Sócio 1 e quota", "placeholder": "Nome — quota de 50 000,00 MZN" },
+   { "key": "socio2", "label": "Sócio 2 e quota", "placeholder": "Nome — quota de 50 000,00 MZN" },
+   { "key": "gerente", "label": "Gerente", "placeholder": "Nome completo" }
+  ],
+  "body": [
+   "CONTRATO DE SOCIEDADE",
+   "Artigo 1 (Firma e sede) — A sociedade adopta a firma {{firma}} e tem sede em {{sede}}.",
+   "Artigo 2 (Objecto) — A sociedade tem por objecto {{objecto}}.",
+   "Artigo 3 (Capital) — O capital social, integralmente subscrito e realizado em dinheiro, é de {{capital}} MZN, dividido nas seguintes quotas: {{socio1}}; {{socio2}}.",
+   "Artigo 4 (Gerência) — A gerência da sociedade é exercida por {{gerente}}, que a obriga com a sua assinatura.",
+   "Artigo 5 (Omissões) — Em tudo o que não estiver previsto aplica-se o Código Comercial.",
+   "Os sócios: ______________________   ______________________"
+  ],
+  "norms": [ { "diplomaId": "dl-2-2005", "articleId": "art-82" }, { "diplomaId": "dl-2-2005", "articleId": "art-90" } ]
+ }
+]
