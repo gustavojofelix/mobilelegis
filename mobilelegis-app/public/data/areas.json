@@ -27,6 +27,9 @@
       ] },
       { "id": "contabilidade", "name": { "pt": "Contabilidade", "en": "Accounting", "fr": "Comptabilité" }, "subcategories": [
         { "id": "normas-contabilisticas", "name": { "pt": "Normas Contabilísticas", "en": "Accounting Standards", "fr": "Normes comptables" } }
+      ] },
+      { "id": "processo-fiscal", "name": { "pt": "Processo Tributário", "en": "Tax Procedure", "fr": "Procédure fiscale" }, "subcategories": [
+        { "id": "execucoes-fiscais", "name": { "pt": "Execuções Fiscais", "en": "Tax Enforcement", "fr": "Recouvrement fiscal forcé" } }
       ] }
     ]
   },

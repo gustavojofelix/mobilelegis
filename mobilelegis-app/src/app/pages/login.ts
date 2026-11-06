@@ -27,6 +27,7 @@ import { AuthLayout } from '../shared/auth-layout';
         <a routerLink="/recuperar" class="auth-link">{{ 'login.trouble' | t }}</a>
       </form>
       <p class="auth-foot">{{ 'login.noAccount' | t }} <a routerLink="/registo">{{ 'login.register' | t }}</a></p>
+      <p class="auth-foot small"><a routerLink="/backoffice"><i class="fa fa-lock"></i> {{ 'nav.backoffice' | t }}</a></p>
     </app-auth-layout>`,
 })
 export class Login {

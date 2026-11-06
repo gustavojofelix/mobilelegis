@@ -1,0 +1,197 @@
+{
+  "code": "LACI047",
+  "title": "Código das Execuções Fiscais",
+  "excerptNote": "Excerto de demonstração: 19 dos 330 artigos do Código, incluindo todos os artigos afectados pelas alterações.",
+  "docs": [
+    { "id": "orig", "role": "original", "type": "Decreto", "number": "38 088", "title": "Decreto n.º 38 088", "subtitle": "Aprova o Código das Execuções Fiscais", "date": "1950-12-12", "source": "Ministério das Colónias · Boletim Oficial", "pages": 32, "quality": "poor", "score": 38, "match": ["original", "38088", "38 088"], "file": "LACI047 - BR ORIGINAL.pdf", "notes": "Digitalização antiga · 2 colunas · tabelas e formulários" },
+    { "id": "a1951", "role": "amendment", "type": "Decreto", "number": "38 295", "title": "Decreto n.º 38 295", "subtitle": "Substitui o artigo 1.º do Código", "date": "1951-06-12", "source": "Boletim Oficial de Moçambique n.º 31, I Série, 4 de Agosto de 1951", "pages": 1, "quality": "medium", "score": 62, "match": ["alteracao 3", "alteração 3", "38295"], "file": "LACI047 - ALTERACAO 3.pdf", "notes": "Fotografia · página com 6 diplomas" },
+    { "id": "a1966", "role": "amendment", "type": "Decreto", "number": "46 849", "title": "Decreto n.º 46 849", "subtitle": "Percentagens e custas dos serviços de Fazenda do Ultramar", "date": "1966-01-29", "source": "Ministério do Ultramar · Direcção-Geral de Fazenda", "pages": 1, "quality": "good", "score": 81, "match": ["alteracao 2", "alteração 2", "46849"], "file": "LACI047 - ALTERACAO 2.pdf", "notes": "Digitalização · começa com o fim de outro diploma" },
+    { "id": "a2013", "role": "amendment", "type": "Decreto-Lei", "number": "1/2013", "title": "Decreto-Lei n.º 1/2013", "subtitle": "Aprova o Regime Jurídico da Insolvência e da Recuperação de Empresários Comerciais", "date": "2013-07-04", "source": "Boletim da República n.º 53, I Série, Suplemento", "pages": 24, "quality": "digital", "score": 99, "match": ["alteracao 1", "alteração 1", "1/2013"], "file": "LACI047 - ALTERACAO 1.pdf", "notes": "Texto digital · 2 colunas · diploma com regime anexo" },
+    { "id": "manual", "role": "manual", "type": "Versão manual", "number": "", "title": "Versão consolidada existente", "subtitle": "Decreto nº 38088 — Revisto (preparada em Word)", "date": "", "source": "Base actual Mobilelegis", "pages": 87, "quality": "digital", "score": 100, "match": ["revisto", "download", "consolidad"], "file": "LACI047 - Decreto nº 38088 - Revisto - Download - YF (1).pdf", "notes": "Usada apenas para comparação" }
+  ],
+
+  "articles": [
+    { "k": "a1", "n": "1", "section": "CAPÍTULO I — Disposições fundamentais · SECÇÃO I — Da execução fiscal", "units": [
+      { "id": "a1-c", "kind": "body", "label": "", "text": "O Código das Execuções Fiscais estabelece as regras a observar na cobrança coerciva das dívidas ao Estado por contribuições, impostos e mais rendimentos, determinado as entidades competentes para a efectuar e fixando a forma do processo." },
+      { "id": "a1-pu", "kind": "par", "label": "§ único.", "text": "As disposições do código são extensivas à cobrança das dívidas aos serviços autónomos ou com administração especial, aos corpos administrativos, à Caixa Económica Postal e a todas as entidades ou organismos especiais, salvos os casos em que essa cobrança venha a ser regulada por forma diferente." }
+    ] },
+    { "k": "a2", "n": "2", "section": "SECÇÃO II — Organização dos juízos fiscais", "units": [
+      { "id": "a2-c", "kind": "body", "label": "", "text": "São mantidos, com a sua actual constituição, os juízos privativos das execuções fiscais de Lourenço Marques e Luanda, criados, respectivamente, pelos Diplomas Legislativos n.º 690, de 15 de Março de 1940, do Governo-Geral da colónia de Moçambique, e n.º 2:146, de 20 de Abril de 1949, do Governo-Geral da colónia de Angola." }
+    ] },
+    { "k": "a37", "n": "37", "section": "SECÇÃO V — Do título executivo", "units": [
+      { "id": "a37-c", "kind": "body", "label": "", "text": "A execução fiscal tem por fim a cobrança de uma quantia certa e terá por base um título pelo qual se determina o direito do exequente." }
+    ] },
+    { "k": "a38", "n": "38", "section": "SECÇÃO V — Do título executivo", "units": [
+      { "id": "a38-c", "kind": "body", "label": "", "text": "Para a cobrança coerciva os conhecimentos de cobrança das contribuições e impostos e os recibos ou documentos respeitantes à cobrança de taxas ou outros rendimentos têm força e valem como sentença passada em julgado, nos termos da legislação em vigor." },
+      { "id": "a38-pu", "kind": "par", "label": "§ único.", "text": "Têm também força de sentença com trânsito em julgado os documentos a que se refere o n.º 2.º do artigo 39.º" }
+    ] },
+    { "k": "a104", "n": "104", "section": "CAPÍTULO III — Do processo · SECÇÃO II — Da penhora", "units": [
+      { "id": "a104-c", "kind": "body", "label": "", "text": "A penhora de créditos ou direitos será feita nos termos dos artigos 856.º a 863.º do Código de Processo Civil, substituindo-se as palavras «Caixa Geral de Depósitos», referida no artigo 801.º, por «banco emissor» ou, na sua falta, «recebedoria de Fazenda»." }
+    ] },
+    { "k": "a147", "n": "147", "section": "SECÇÃO IV — Execução no caso de falência ou concordata", "units": [
+      { "id": "a147-c", "kind": "body", "label": "", "text": "Os processos de execução fiscal, qualquer que seja a proveniência da dívida, não se suspendem com a declaração de falência ou insolvência do executado ou da firma de que ele faça parte, nem quando estes se encontrem em regime de concordata, quer sejam anteriores, quer posteriores à instauração dos mesmos processos, não podendo, sequer, ser avocados ao tribunal da comarca por esse motivo, salvo nos termos do artigo seguinte." },
+      { "id": "a147-pu", "kind": "par", "label": "§ único.", "text": "Exceptuam-se os processos de execução em que seja exequente a Caixa Económica Postal." }
+    ] },
+    { "k": "a148", "n": "148", "section": "SECÇÃO IV — Execução no caso de falência ou concordata", "units": [
+      { "id": "a148-c", "kind": "body", "label": "", "text": "No caso do artigo 149.º, o administrador da massa falida é obrigado a requerer a avocação de todos os processos de execução fiscal que se encontrem pendentes contra o falido ou em que o mesmo seja responsável, a fim de serem apensos ao processo de falência e o Ministério Público junto do tribunal acautelar os interesses do exequente." },
+      { "id": "a148-c2", "kind": "body", "label": "", "text": "Quando seja requerida a avocação dos processos executivos, o juiz ordenará a expedição de ofício ao juízo fiscal avocando os processos." },
+      { "id": "a148-p1", "kind": "par", "label": "§ 1.º", "text": "Nos ofícios em que se fizer a avocação dos processos de execução fiscal indicar-se-á sempre a data em que foi declarada a falência, para que seja rigorosamente observado na contagem dos juros de mora o que dispõe o artigo 1164.º do Código de Processo Civil." },
+      { "id": "a148-p2", "kind": "par", "label": "§ 2.º", "text": "Os processos das execuções que não forem avocados e continuarem pendentes nos juízos fiscais serão feitos conclusos para o juiz determinar a aplicação do disposto no artigo 299.º" },
+      { "id": "a148-p3", "kind": "par", "label": "§ 3.º", "text": "Findo o processo de falência, ou logo que esteja autorizado o pagamento da totalidade da dívida, ou ainda quando se verificar alguma das hipóteses previstas nos n.ºs 1.º a 5.º do artigo 1317.º do Código de Processo Civil, serão os processos de execução fiscal que tenham sido avocados devolvidos ao respectivo juízo fiscal, acompanhados de ofício em que se indique o motivo da sua devolução." },
+      { "id": "a148-p4", "kind": "par", "label": "§ 4.º", "text": "Sem que esteja feito o pagamento da dívida à Fazenda Nacional, juros de mora, selos e custas, não poderá ser passado precatório de levantamento de qualquer percentagem da massa falida a favor dos credores." }
+    ] },
+    { "k": "a149", "n": "149", "section": "SECÇÃO IV — Execução no caso de falência ou concordata", "units": [
+      { "id": "a149-c", "kind": "body", "label": "", "text": "Quando o executado for falido ou insolvente e os seus bens se encontrem já arrolados pelo tribunal da comarca, não poderão ser penhorados; mas, se a penhora for anterior ao arrolamento e houver dia designado para arrematação, proceder-se-á nos termos do artigo 1363.º do Código de Processo Civil." },
+      { "id": "a149-c2", "kind": "body", "label": "", "text": "Neste caso compete ao juiz fiscal, se a arrematação tiver sido de bens móveis, a remessa da execução ao tribunal, independentemente de quanto estabelece o artigo 150.º deste código." }
+    ] },
+    { "k": "a163", "n": "163", "section": "SECÇÃO V — Disposições diversas", "units": [
+      { "id": "a163-c", "kind": "body", "label": "", "text": "Poderão ser passadas certidões de todos os actos e termos do processo." },
+      { "id": "a163-p1", "kind": "par", "label": "§ 1.º", "text": "São pessoas legítimas para pedir as certidões os executados ou seus representantes, podendo, no entanto, o juiz da causa autorizar que sejam passadas a outras pessoas." },
+      { "id": "a163-p2", "kind": "par", "label": "§ 2.º", "text": "As certidões são passadas pelo escrivão do processo no prazo de cinco dias, a contar da recepção do respectivo pedido, independentemente de despacho anterior." },
+      { "id": "a163-p3", "kind": "par", "label": "§ 3.º", "text": "No caso de recusa os interessados ou seus representantes poderão pedir ao juiz da causa que as mande passar; este, ouvido o escrivão, indeferirá ou deferirá o pedido, conforme julgar ou não justificada a recusa, podendo conceder o prazo que lhe parecer razoável, no caso de ser insuficiente o estabelecido no" }
+    ] },
+    { "k": "a177", "n": "177", "section": "SECÇÃO VI — Oposição à execução", "units": [
+      { "id": "a177-c", "kind": "body", "label": "", "text": "Os embargos de executado só suspendem a execução nos termos posteriores à penhora; mas esta não se efectuará se o embargante depositar, à ordem do respectivo juízo da execução, importância previamente fixada em despacho, que for julgada suficiente para garantia da dívida exequenda, custas e seios do processo, ou se a caucionar nos termos do artigo 818.º do Código de Processo Civil." },
+      { "id": "a177-p1", "kind": "par", "label": "§ 1.º", "text": "Se não estiver feita a penhora e o embargante pretender caucionar a dívida, assim o requererá ao juiz, o qual fixará o montante do depósito, que será efectuado no prazo de três dias." },
+      { "id": "a177-p2", "kind": "par", "label": "§ 2.º", "text": "O despacho que fixar o depósito ou julgar idónea a fiança ou a caução suficiente será mimado no prazo de vinte e quatro horas ao embargante. A remessa dos embargos para o agente do Ministério Público da comarca, no caso de não ser prestada a caução, só será feita depois de efectuada a penhora." },
+      { "id": "a177-p3", "kind": "par", "label": "§ 3.º", "text": "A remessa dos embargos para o agente do Ministério Público da comarca, no caso de não ser prestada a caução, só será feita depois de efectuada a penhora." }
+    ] },
+    { "k": "a192", "n": "192", "section": "CAPÍTULO V — Extinção e anulação da execução", "units": [
+      { "id": "a192-c", "kind": "body", "label": "", "text": "Se a execução estiver correndo administrativamente e o executado pretender pagar, solicitará ao escrivão do processo que lhe seja passada guia para pagamento da quantia exequenda. A guia será passada imediatamente e entregue mediante termo." },
+      { "id": "a192-c2", "kind": "body", "label": "", "text": "Para a dívida, o escrivão remeterá o processo à conta no prazo de vinte e quatro horas, e, notificada está, o pagamento será feito dentro de oito dias." }
+    ] },
+    { "k": "a255", "n": "255", "section": "CAPÍTULO IX — Da prescrição", "units": [
+      { "id": "a255-c", "kind": "body", "label": "", "text": "Para a anulação dos conhecimentos de dívidas prescritas observar-se-á o seguinte:" },
+      { "id": "a255-n1", "kind": "num", "label": "1.º", "text": "Quando haja processo instaurado, julgada prescrita a dívida, os secretários e delegados de Fazenda, logo que a decisão tenha transitado em julgado, requisitarão aos recebedores os respectivos conhecimentos, indicando na requisição seus números, importâncias e o total, e deles passarão recibo nas mesmas requisições;" },
+      { "id": "a255-n2", "kind": "num", "label": "2.º", "text": "Se não houver processo instaurado, requisitar-se-ão os conhecimentos e organizar-se-á a relação, tudo na forma prescrita no número anterior;" },
+      { "id": "a255-n3", "kind": "num", "label": "3.º", "text": "Os conhecimentos julgados prescritos serão, antes de enviados às entidades a que se refere o n.º 1.º com as relações, inutilizados com um carimbo com a designação de «Anulado por proscrição»." }
+    ] },
+    { "k": "a269", "n": "269", "section": "CAPÍTULO X — Custas e selos", "units": [
+      { "id": "a269-c", "kind": "body", "label": "", "text": "As importâncias liquidadas de custas, incluindo a percentagem a que se refere o artigo 259.º, mas com exclusão dos caminhos, serão divididas:" },
+      { "id": "a269-n1", "kind": "num", "label": "1.º", "text": "45 por cento para o juiz;" },
+      { "id": "a269-n2", "kind": "num", "label": "2.º", "text": "30 por cento para o escrivão;" },
+      { "id": "a269-n3", "kind": "num", "label": "3.º", "text": "25 por cento para o oficial de diligências." },
+      { "id": "a269-p1", "kind": "par", "label": "§ 1.º", "text": "A percentagem de 30 por cento a que se refere o n.º 2.º e que couber aos escrivães do juízo privativo das execuções fiscais de Lourenço Marques continua a ser receita da Fazenda, nos termos do artigo 7.º do Diploma Legislativo n.º 690, de 15 de Março de 1940." },
+      { "id": "a269-p2", "kind": "par", "label": "§ 2.º", "text": "(transitório). Enquanto doutra forma não for estabelecido, a distribuição e destino legal das custas continuarão a regular-se na colónia de Angola pela legislação ali vigente à data deste código." }
+    ] },
+    { "k": "a299", "n": "299", "section": "CAPÍTULO XI — Responsabilidade solidária e subsidiária", "units": [
+      { "id": "a299-c", "kind": "body", "label": "", "text": "Na falta de cumprimento do disposto no artigo 148.º, os administradores das massas falidas ficarão subsidiariamente responsáveis pelas dívidas do falido, e contra eles reverterão as execuções; e quando, por falta de bens dos mesmos administradores, não possam ser cobradas, aplicar-se-lhes-á, até que satisfaçam todo o débito, a disposição do artigo 328.º" }
+    ] },
+    { "k": "a312", "n": "312", "section": "CAPÍTULO XIII — Disposições diversas", "units": [
+      { "id": "a312-c", "kind": "body", "label": "", "text": "Em todas as execuções judiciais, quando forem ordenadas as citações a que se refere o artigo 864.º do Código de Processo Civil, o escrivão intimará, ex officio, o agente do Ministério Público; e este, logo que for feita a intimação, requererá a citação pessoal do secretário de Fazenda do concelho da sede do tribunal e dos secretários e delegados de Fazenda do lugar da situação dos prédios penhorados para lhe enviarem, no prazo de oito dias, certidões de todas as importâncias em dívida à Fazenda por que sejam responsáveis os possuidores dos prédios ou que digam respeito a estes." },
+      { "id": "a312-p3", "kind": "par", "label": "§ 3.º", "text": "Os agentes do Ministério Público defenderão perante o respectivo juízo os direitos que à Fazenda da colónia estiverem consignados na lei, designadamente os dos artigos 885.º e 837.º do Código Civil." }
+    ] },
+    { "k": "a317", "n": "317", "section": "CAPÍTULO XIII — Disposições diversas", "units": [
+      { "id": "a317-c", "kind": "body", "label": "", "text": "Os escrivães dos processos incorrerão na pena de pagar as importâncias das dívidas que não puderem ser cobradas:" },
+      { "id": "a317-n1", "kind": "num", "label": "1.º", "text": "Quando retardarem o cumprimento do disposto no artigo 80.º ou a conclusão do processo para o juiz ordenar a penhora, se não forem depois encontrados bens ao executado e se prove que ele dispôs dos que possuía no prazo em que devia ter-se feito a penhora;" },
+      { "id": "a317-n2", "kind": "num", "label": "2.º", "text": "Quando se provar que lavraram o auto de diligência a que se refere o artigo 88.º tendo encontrado bens em que podia ser feita a penhora;" },
+      { "id": "a317-pu", "kind": "par", "label": "§ único.", "text": "Estas penas serão impostas pelos juízes nos respectivos processos, devendo os mesmos juízes remeter cópia dos seus despachos aos serviços de Fazenda respectivos, para os fazerem cumprir." }
+    ] },
+    { "k": "a317b", "n": "317", "section": "CAPÍTULO XIII — Disposições diversas", "units": [
+      { "id": "a317b-c", "kind": "body", "label": "", "text": "Sem prejuízo do disposto no artigo anterior, será imediatamente instaurado processo disciplinar, sendo logo afastados do serviço os funcionários que intervierem em auto de diligência, quando venha ao conhecimento de qualquer dos seus superiores que o executado tinha realmente bens penhoráveis." }
+    ] },
+    { "k": "a318", "n": "318", "section": "CAPÍTULO XIII — Disposições diversas", "units": [
+      { "id": "a318-c", "kind": "body", "label": "", "text": "A aplicação de qualquer pena por negligência aos secretários e delegados de Fazenda, como juízes dos juízos fiscais, implica: pela primeira vez, advertência, e pela reincidência, transferência para concelho de menor movimento ou dada por finda a comissão." }
+    ] },
+    { "k": "a320", "n": "320", "section": "CAPÍTULO XIII — Disposições diversas", "units": [
+      { "id": "a320-c", "kind": "body", "label": "", "text": "Os escrivães e contadores, além das penas especialmente fixadas, poderão ser punidos pelo juiz com a pena de advertência, e quando se mostrem negligentes no cumprimento dos seus deveres serão afastados do serviço do juízo." }
+    ] }
+  ],
+
+  "doubts": [
+    { "id": "d1", "doc": "orig", "page": 19, "art": "255.º, 3.º", "unit": "a255-n3", "before": "inutilizados com um carimbo com a designação de «Anulado por", "wrong": "proscrição", "right": "prescrição", "after": "».", "conf": 61, "why": "Termo jurídico: o artigo trata de dívidas prescritas." },
+    { "id": "d2", "doc": "orig", "page": 14, "art": "192.º", "unit": "a192-c2", "before": "", "wrong": "Para a dívida", "right": "Paga a dívida", "after": ", o escrivão remeterá o processo à conta", "conf": 58, "why": "«Para a dívida» não faz sentido no contexto; a imagem mostra «Paga»." },
+    { "id": "d3", "doc": "orig", "page": 14, "art": "192.º", "unit": "a192-c2", "before": "no prazo de vinte e quatro horas, e,", "wrong": "notificada está", "right": "notificada esta", "after": ", o pagamento será feito", "conf": 72, "why": "Acento errado: refere-se à conta." },
+    { "id": "d4", "doc": "orig", "page": 9, "art": "104.º", "unit": "a104-c", "before": "«Caixa Geral de Depósitos», referida no artigo", "wrong": "801.º", "right": "861.º", "after": ", por «banco emissor»", "conf": 64, "why": "A remissão está dentro do intervalo citado (arts. 856.º a 863.º)." },
+    { "id": "d5", "doc": "orig", "page": 23, "art": "312.º, § 3.º", "unit": "a312-p3", "before": "designadamente os dos artigos 885.º e", "wrong": "837.º", "right": "887.º", "after": "do Código Civil.", "conf": 66, "why": "Dígito «8» lido como «3»; artigos seguidos sobre privilégios creditórios." },
+    { "id": "d6", "doc": "orig", "page": 13, "art": "177.º", "unit": "a177-c", "before": "garantia da dívida exequenda, custas e", "wrong": "seios", "right": "selos", "after": "do processo", "conf": 69, "why": "Expressão recorrente no Código: «custas e selos»." },
+    { "id": "d7", "doc": "orig", "page": 14, "art": "177.º, § 2.º", "unit": "a177-p2", "before": "ou a caução suficiente será", "wrong": "mimado", "right": "intimado", "after": "no prazo de vinte e quatro horas", "conf": 57, "why": "Palavra inexistente neste contexto processual." },
+    { "id": "d8", "doc": "orig", "page": 2, "art": "1.º", "unit": "a1-c", "before": "impostos e mais rendimentos,", "wrong": "determinado", "right": "determinando", "after": "as entidades competentes", "conf": 74, "why": "Gerúndio paralelo a «fixando»." },
+    { "id": "d9", "doc": "orig", "page": 20, "art": "258.º, e)", "before": "Até quatro laudas ....................", "wrong": "4800", "right": "4$00", "after": "", "conf": 55, "why": "Valor em escudos: o cifrão foi lido como «8»." },
+    { "id": "d10", "doc": "orig", "page": 20, "art": "258.º, e)", "before": "De cada lauda além das dez ..........", "wrong": "§50", "right": "$50", "after": "", "conf": 52, "why": "Cifrão confundido com o símbolo de parágrafo." },
+    { "id": "d11", "doc": "orig", "page": 20, "art": "260.º", "before": "5$ pela primeira lauda e", "wrong": "2?50", "right": "2$50", "after": "pelas seguintes", "conf": 49, "why": "Carácter ilegível no lugar do cifrão." },
+    { "id": "d12", "doc": "orig", "page": 4, "art": "39.º, § único", "before": "se o montante da dívida não exceder a", "wrong": "10.000S", "right": "10.000$", "after": "ou quantia equivalente", "conf": 60, "why": "Cifrão lido como «S»." },
+    { "id": "d13", "doc": "orig", "page": 17, "art": "253.º", "before": "as importâncias a que se refere o artigo", "wrong": "122.º", "right": "115.º", "after": ", contando-se aquele a partir da data da sentença", "conf": 63, "why": "O art. 115.º trata de sobras a restituir — coerente com a prescrição a favor do cofre." },
+    { "id": "d14", "doc": "orig", "page": 17, "art": "235.º", "before": "Se a arrematação tiver sido feita no caso previsto no § 1.º do artigo", "wrong": "122.º", "right": "120.º", "after": ", acrescerá o valor dos encargos", "conf": 65, "why": "O § 1.º do art. 120.º trata dos encargos satisfeitos pela Fazenda." },
+    { "id": "d15", "doc": "orig", "page": 21, "art": "279.º", "before": "Se os interessados reclamarem de erro da", "wrong": "tonta", "right": "conta", "after": ", o juiz decidirá", "conf": 71, "why": "Contexto: reclamação da conta de custas." },
+    { "id": "d16", "doc": "orig", "page": 16, "art": "207.º", "before": "possuem bens, sem prejuízo,", "wrong": "ioda via", "right": "todavia", "after": ", das regras da prescrição.", "conf": 67, "why": "Palavra partida e mal lida." },
+    { "id": "d17", "doc": "orig", "page": 21, "art": "263.º", "before": "excepto as das arrematações e", "wrong": "almóadas", "right": "almoedas", "after": ".", "conf": 62, "why": "Termo processual: almoeda (leilão)." }
+  ],
+
+  "issues": [
+    { "id": "i1", "doc": "orig", "art": "317.º", "severity": "high", "title": "O artigo 317.º aparece duas vezes", "detail": "A sequência lida é 317.º, 317.º, 318.º, 320.º. Pela ordem da imagem, o segundo 317.º é o 318.º e o 318.º é o 319.º.", "choices": [ { "id": "fix", "label": "Renumerar para 318.º e 319.º", "effect": { "type": "renumber", "map": { "a317b": "318", "a318": "319" } } }, { "id": "keep", "label": "Manter como está" } ] },
+    { "id": "i2", "doc": "orig", "art": "163.º, § 3.º", "severity": "high", "title": "Frase incompleta no art. 163.º, § 3.º", "detail": "O parágrafo termina em «…o estabelecido no». Na imagem, a frase continua: «…o estabelecido no § 2.º».", "choices": [ { "id": "fix", "label": "Completar com «§ 2.º»", "effect": { "type": "append", "unit": "a163-p3", "text": " § 2.º" } }, { "id": "keep", "label": "Manter como está" } ] },
+    { "id": "i3", "doc": "orig", "art": "177.º, § 2.º", "severity": "medium", "title": "Texto duplicado no art. 177.º", "detail": "A frase do § 3.º («A remessa dos embargos…») também aparece no final do § 2.º.", "choices": [ { "id": "fix", "label": "Remover a frase duplicada do § 2.º", "effect": { "type": "replace", "unit": "a177-p2", "from": " A remessa dos embargos para o agente do Ministério Público da comarca, no caso de não ser prestada a caução, só será feita depois de efectuada a penhora.", "to": "" } }, { "id": "keep", "label": "Manter como está" } ] },
+    { "id": "i4", "doc": "orig", "art": "256.º", "severity": "medium", "title": "Tabela de custas em imagem", "detail": "O art. 256.º contém uma tabela (valor da execução × taxa fixa × taxa por folha) e os modelos n.º 1 a 21 e A a G são formulários.", "choices": [ { "id": "ai", "label": "Transcrever tabela com IA" }, { "id": "annex", "label": "Manter como imagem em anexo" } ] },
+    { "id": "i5", "doc": "orig", "art": "Decreto, art. 5.º", "severity": "low", "title": "«§ único» do decreto", "detail": "No decreto que aprova o Código, o art. 5.º tem um «§ único». Confirme que não é um artigo autónomo.", "choices": [ { "id": "fix", "label": "Confirmar como § único do art. 5.º" }, { "id": "keep", "label": "Tratar como artigo" } ] },
+    { "id": "i6", "doc": "a2013", "art": "págs. 1–2", "severity": "info", "auto": true, "title": "Colunas reordenadas automaticamente", "detail": "No texto digital, o art. 5.º do Decreto-Lei aparecia no meio do Regime anexo. A IA reconstruiu a ordem pela posição na página.", "choices": [ { "id": "ok", "label": "Confirmar" } ] },
+    { "id": "i7", "doc": "a2013", "art": "pág. 9", "severity": "info", "auto": true, "title": "Palavras coladas separadas", "detail": "«situaçãopatrimonialdodevedoredasefectivasrazõe sdacrise…» → «situação patrimonial do devedor e das efectivas razões da crise…».", "choices": [ { "id": "ok", "label": "Confirmar" } ] },
+    { "id": "i8", "doc": "a1951", "art": "pág. 762", "severity": "info", "auto": true, "title": "Página com 6 diplomas", "detail": "A IA separou a página por diplomas e identificou o Decreto n.º 38:295 (Ministério das Colónias) como o único que altera o Código.", "choices": [ { "id": "ok", "label": "Confirmar" } ] },
+    { "id": "i9", "doc": "a1966", "art": "pág. 1", "severity": "info", "auto": true, "title": "Início de outro diploma ignorado", "detail": "O topo da página contém o fim de um diploma do Ministério dos Negócios Estrangeiros (Embaixada em Tóquio), que não é relevante.", "choices": [ { "id": "ok", "label": "Confirmar" } ] }
+  ],
+
+  "ops": [
+    { "id": "op1", "doc": "a1951", "ref": "Artigo único", "page": 1, "kind": "substitute", "target": { "art": "a1" }, "targetLabel": "Art. 1.º (integral)", "summary": "Substitui o artigo 1.º",
+      "before": "Usando da faculdade conferida pelo artigo 28.º do Acto Colonial, o Governo decreta e eu promulgo, nos termos do § 2.º do artigo 80.º da Constituição, o seguinte:",
+      "quote": "Artigo único. É substituído pelo seguinte o artigo 1.º do Código das Execuções Fiscais, aprovado pelo Decreto n.º 38:088, de 12 de Dezembro de 1950:",
+      "hl": "substituído pelo seguinte o artigo 1.º",
+      "after": "«Artigo 1.º O Código das Execuções Fiscais estabelece as regras a observar na cobrança coerciva das dívidas ao Estado…»",
+      "conf": 93,
+      "note": "Redacção dada pelo Decreto n.º 38 295, de 12 de Junho de 1951",
+      "newUnits": [
+        { "id": "a1-c", "kind": "body", "label": "", "text": "O Código das Execuções Fiscais estabelece as regras a observar na cobrança coerciva das dívidas ao Estado por contribuições, impostos e mais rendimentos, determinando as entidades competentes para a efectuar e fixando a forma do processo." },
+        { "id": "a1-p1", "kind": "par", "label": "§ 1.º", "text": "As disposições do código são extensivas à cobrança das dívidas aos serviços autónomos ou com administração especial, aos corpos administrativos, à Caixa Económica Postal, à Caixa Económica de Goa e a outras entidades a quem a lei mande ou venha a mandar aplicar as mesmas disposições." }
+      ] },
+    { "id": "op2", "doc": "a1966", "ref": "Art. 5.º, § 2.º", "page": 1, "kind": "revoke", "target": { "art": "a269", "unit": "a269-p1" }, "targetLabel": "Art. 269.º, § 1.º", "summary": "Revoga o § 1.º do artigo 269.º",
+      "before": "§ 1.º Ao abono das custas referido no corpo deste artigo são aplicáveis as disposições do artigo 157.º do Estatuto do Funcionalismo Ultramarino, não podendo proceder-se à sua liquidação sem que prèviamente se tenha observado o rigoroso cumprimento do preceituado no artigo 159.º do Código das Execuções Fiscais.",
+      "quote": "§ 2.º É revogado o § 1.º do artigo 269.º do Código das Execuções Fiscais, aprovado pelo Decreto n.º 38 088, de 12 de Dezembro de 1950.",
+      "hl": "§ 1.º do artigo 269.º",
+      "after": "Art. 6.º São aumentadas as seguintes unidades à Inspecção Provincial de Fazenda e Contabilidade de Angola: …",
+      "conf": 96,
+      "hint": "O art. 269.º tem um n.º 1.º (45 % para o juiz) e um § 1.º (escrivães de Lourenço Marques). O diploma revoga o § 1.º.",
+      "note": "Revogado pelo Decreto n.º 46 849, de 29 de Janeiro de 1966" },
+    { "id": "op3", "doc": "a2013", "ref": "Art. 3, alínea b)", "page": 1, "kind": "revoke", "target": { "art": "a147" }, "targetLabel": "Art. 147.º (integral)", "summary": "Revoga o artigo 147.º",
+      "before": "Artigo 3 (Norma revogatória) Ressalvado o disposto no artigo 4 deste diploma, ficam revogados: a) os artigos 1122 a 1325 do Código de Processo Civil;",
+      "quote": "b) os artigos 147 e 148 do Código das Execuções Fiscais aprovado pelo Decreto n.º 38088, de 12 de Dezembro de 1950;",
+      "hl": "artigos 147 e 148",
+      "after": "c) todas as normas legais vigentes que contrariem as disposições deste Decreto-Lei.",
+      "conf": 97,
+      "note": "Revogado pelo Decreto-Lei n.º 1/2013, de 4 de Julho" },
+    { "id": "op4", "doc": "a2013", "ref": "Art. 3, alínea b)", "page": 1, "kind": "revoke", "target": { "art": "a148" }, "targetLabel": "Art. 148.º (integral)", "summary": "Revoga o artigo 148.º",
+      "before": "Artigo 3 (Norma revogatória) Ressalvado o disposto no artigo 4 deste diploma, ficam revogados: a) os artigos 1122 a 1325 do Código de Processo Civil;",
+      "quote": "b) os artigos 147 e 148 do Código das Execuções Fiscais aprovado pelo Decreto n.º 38088, de 12 de Dezembro de 1950;",
+      "hl": "artigos 147 e 148",
+      "after": "c) todas as normas legais vigentes que contrariem as disposições deste Decreto-Lei.",
+      "conf": 97,
+      "note": "Revogado pelo Decreto-Lei n.º 1/2013, de 4 de Julho" }
+  ],
+
+  "warnings": [
+    { "id": "w7", "doc": "a1966", "severity": "info", "title": "§ 1.º ou n.º 1.º?", "detail": "O art. 269.º tem um n.º 1.º e um § 1.º. A IA aplicou a revogação ao § 1.º (parágrafo), como diz o texto do diploma. A versão manual existente revogou o n.º 1.º.", "choices": [ { "id": "confirm", "label": "Confirmo o § 1.º" }, { "id": "review", "label": "Rever com jurista" } ] },
+    { "id": "w5", "doc": "a1966", "severity": "medium", "title": "Altera também outro diploma", "detail": "O art. 7.º altera as alíneas a) e d) do art. 3.º do Decreto n.º 36 253, de 26 de Abril de 1947. Este diploma não faz parte deste dossier.", "choices": [ { "id": "link", "label": "Criar tarefa no dossier desse diploma" }, { "id": "ignore", "label": "Ignorar" } ] },
+    { "id": "w4", "doc": "a2013", "severity": "high", "title": "Dois «artigos 147 e 148» no mesmo diploma", "detail": "O Decreto-Lei tem duas numerações: arts. 1–5 do decreto e arts. 1–179 do Regime anexo. O Regime também tem arts. 147 («Pagamento antecipado de despesas») e 148 («Pagamento de créditos laborais…»). A revogação é dos arts. 147.º e 148.º do Código das Execuções Fiscais — as epígrafes do Regime não devem ser copiadas.", "choices": [ { "id": "confirm", "label": "Confirmo: são os artigos do Código" }, { "id": "review", "label": "Rever com jurista" } ] },
+    { "id": "w1", "doc": "a2013", "severity": "medium", "title": "Altera também outros diplomas", "detail": "O art. 2 altera os arts. 45 e 88 do Decreto n.º 43 525, de 7 de Março de 1961 (arrendamento) e o art. 3, alínea a), revoga os arts. 1122 a 1325 do Código de Processo Civil.", "choices": [ { "id": "link", "label": "Criar tarefas nesses dossiers" }, { "id": "ignore", "label": "Ignorar" } ] },
+    { "id": "w2", "doc": "a2013", "severity": "high", "title": "Revogação genérica", "detail": "A alínea c) revoga «todas as normas legais vigentes que contrariem as disposições deste Decreto-Lei». Saber que artigos do Código são afectados é uma decisão jurídica.", "choices": [ { "id": "none", "label": "Sem efeito adicional neste Código" }, { "id": "flag", "label": "Marcar para análise jurídica" } ] },
+    { "id": "w3", "doc": "a2013", "severity": "medium", "title": "Regime transitório", "detail": "Pelo art. 4, o novo regime não se aplica aos processos iniciados antes da sua vigência, que continuam pelas normas antigas.", "choices": [ { "id": "note", "label": "Adicionar nota aos arts. 147.º e 148.º", "effect": { "type": "note", "arts": ["a147", "a148"], "text": "Ressalvado o regime transitório do artigo 4 do Decreto-Lei n.º 1/2013 (processos anteriores à sua vigência)." } }, { "id": "skip", "label": "Não adicionar" } ] },
+    { "id": "w6", "doc": "a2013", "severity": "medium", "title": "Remissões para artigo revogado", "detail": "O art. 299.º do Código e o art. 5.º do decreto de aprovação remetem para o art. 148.º, agora revogado.", "choices": [ { "id": "note", "label": "Adicionar nota de remissão ao art. 299.º", "effect": { "type": "note", "arts": ["a299"], "text": "O artigo 148.º, para que remete este artigo, foi revogado pelo Decreto-Lei n.º 1/2013, de 4 de Julho." } }, { "id": "skip", "label": "Não adicionar" } ] }
+  ],
+
+  "audit": [
+    { "severity": "high", "where": "Art. 269.º", "title": "Revogado o número errado", "detail": "A versão manual revogou o n.º 1.º (45 % para o juiz). O Decreto n.º 46 849 revoga o § 1.º (escrivães de Lourenço Marques)." },
+    { "severity": "high", "where": "Arts. 147.º e 148.º", "title": "Epígrafes de outra lei", "detail": "«Pagamento antecipado de despesas» e «Pagamento de créditos laborais…» são epígrafes do Regime da Insolvência anexo ao DL 1/2013, não do Código." },
+    { "severity": "high", "where": "Arts. 192.º, 255.º", "title": "Erros de leitura que mudam o sentido", "detail": "«Para a dívida» (Paga a dívida) e «Anulado por proscrição» (prescrição)." },
+    { "severity": "medium", "where": "Arts. 104.º, 235.º, 253.º, 312.º", "title": "Remissões com números trocados", "detail": "801.º → 861.º, 122.º → 120.º, 122.º → 115.º, 837.º → 887.º." },
+    { "severity": "medium", "where": "Arts. 317.º–319.º", "title": "Numeração", "detail": "Art. 317.º duplicado e art. 319.º em falta." },
+    { "severity": "medium", "where": "Cabeçalho", "title": "Datas e efeitos errados", "detail": "Decreto 38 088 «de 05 de Abril de 1950» (é de 12/12/1950); DL 1/2013 «de 02 de Outubro» e «altera» (é de 4 de Julho e revoga); Decreto 38 295 com três datas diferentes." },
+    { "severity": "low", "where": "Todo o diploma", "title": "Símbolo § perdido", "detail": "Parágrafos (§ 1.º) e números (1.º) ficaram iguais, o que causou o erro no art. 269.º." },
+    { "severity": "low", "where": "Valores", "title": "Valores monetários mal lidos", "detail": "«4800», «§50», «20S00», «2?50», «10.000S»." }
+  ],
+
+  "meta": {
+    "id": "dec-38088", "type": "Decreto", "number": "38 088", "year": 1950, "date": "1950-12-12",
+    "title": "Código das Execuções Fiscais",
+    "heading": "Decreto n.º 38 088, de 12 de Dezembro de 1950 — Código das Execuções Fiscais",
+    "preamble": "Aprova o Código das Execuções Fiscais, que estabelece as regras a observar na cobrança coerciva das dívidas ao Estado. Versão consolidada com as alterações do Decreto n.º 38 295 (1951), do Decreto n.º 46 849 (1966) e do Decreto-Lei n.º 1/2013.",
+    "areaId": "fiscal", "categoryId": "processo-fiscal", "subcategoryId": "execucoes-fiscais", "price": 450
+  }
+}

@@ -23,6 +23,7 @@ import { ThemeToggle } from './shared/theme-toggle';
           }
         </div>
         <nav class="topbar-right" aria-label="Menu">
+          <a routerLink="/consultor" class="icon-link ai-link" [attr.aria-label]="'nav.consultant' | t" [title]="'nav.consultant' | t"><i class="fa fa-comments fa-lg"></i></a>
           <a routerLink="/pesquisa" class="icon-link" [attr.aria-label]="'nav.search' | t" [title]="'nav.search' | t"><i class="fa fa-search fa-lg"></i></a>
           <a routerLink="/carrinho" class="icon-link cart" [attr.aria-label]="'nav.cart' | t" [title]="'nav.cart' | t">
             <i class="fa fa-shopping-cart fa-lg"></i><span class="cart-badge">{{ auth.cartCount() }}</span>
@@ -77,6 +78,7 @@ import { ThemeToggle } from './shared/theme-toggle';
           <section>
             <i class="fa fa-cog menu-ico"></i>
             <a routerLink="/favoritos">{{ 'nav.favorites' | t }}</a>
+            <a routerLink="/consultor">{{ 'nav.consultant' | t }}</a>
           </section>
           <section class="menu-prefs">
             <i class="fa fa-sliders menu-ico"></i>
@@ -90,6 +92,10 @@ import { ThemeToggle } from './shared/theme-toggle';
             <a routerLink="/info/faqs">{{ 'nav.faqs' | t }}</a>
             <a routerLink="/info/privacidade">{{ 'nav.privacy' | t }}</a>
             <a routerLink="/info/termos">{{ 'nav.terms' | t }}</a>
+          </section>
+          <section>
+            <i class="fa fa-lock menu-ico"></i>
+            <a routerLink="/backoffice">{{ 'nav.backoffice' | t }}</a>
           </section>
           <section>
             <i class="fa fa-power-off menu-ico"></i>

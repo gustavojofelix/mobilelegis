@@ -1,0 +1,14 @@
+{
+  "admins": [
+    { "email": "admin@mobilelegis.co.mz", "password": "admin", "name": "Administrador LTS", "role": "Preparador" }
+  ],
+  "reviewer": { "name": "Jurista revisor (demo)", "role": "Jurista" },
+  "dossiers": [
+    { "code": "CIV002", "title": "Código Civil — Livro I", "note": "214 páginas digitalizadas", "column": "read", "assignee": "Equipa LTS", "due": "2026-11-20", "progress": 18, "docs": 1 },
+    { "code": "LAB012", "title": "Lei n.º 13/2023 — Lei do Trabalho", "note": "Nova alteração de 2024", "column": "review", "assignee": "Equipa LTS", "due": "2026-11-12", "progress": 64, "docs": 2 },
+    { "code": "FIS031", "title": "Lei n.º 32/2007 — Código do IVA", "note": "3 alterações · 11 operações", "column": "reviewer", "assignee": "Equipa LTS", "due": "2026-11-09", "progress": 92, "docs": 4 },
+    { "code": "MIN004", "title": "Lei n.º 20/2014 — Lei de Minas", "note": "Publicado a 28/10/2026", "column": "published", "assignee": "Equipa LTS", "due": "2026-10-28", "progress": 100, "docs": 2 },
+    { "code": "COM007", "title": "Decreto-Lei n.º 2/2005 — Código Comercial", "note": "Publicado a 21/10/2026", "column": "published", "assignee": "Equipa LTS", "due": "2026-10-21", "progress": 100, "docs": 5 }
+  ],
+  "stats": { "pagesRead": 1284 }
+}

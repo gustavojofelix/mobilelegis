@@ -3,6 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { Area, Article, Diploma, Plan, User, Voucher } from './models';
 
+const PUBLISHED_KEY = 'ml.bo.published';
+
 export interface PlansData { trialDays: number; plans: Plan[]; vouchers: Voucher[]; }
 
 /**
@@ -23,9 +25,35 @@ export class DataService {
       get<Area[]>('areas'), get<Diploma[]>('diplomas'), get<PlansData>('plans'), get<User[]>('users'),
     ]);
     this.areas.set(areas);
-    this.diplomas.set(diplomas);
+    // Diplomas publicados no back office (guardados no navegador)
+    let published: Diploma[] = [];
+    try { published = JSON.parse(localStorage.getItem(PUBLISHED_KEY) ?? '[]'); } catch { /* ignore */ }
+    this.diplomas.set([...diplomas.filter(d => !published.some(p => p.id === d.id)), ...published]);
     this.plansData.set(plans);
     this.seedUsers.set(users);
+  }
+
+  /** Publica (ou substitui) um diploma vindo do back office. */
+  upsertDiploma(d: Diploma) {
+    this.diplomas.update(list => [...list.filter(x => x.id !== d.id), d]);
+    this.savePublished(list => [...list.filter(x => x.id !== d.id), d]);
+  }
+
+  removeDiploma(id: string) {
+    if (!id) return;
+    this.diplomas.update(list => list.filter(x => x.id !== id || !this.isPublished(id)));
+    this.savePublished(list => list.filter(x => x.id !== id));
+  }
+
+  private isPublished(id: string) {
+    try { return (JSON.parse(localStorage.getItem(PUBLISHED_KEY) ?? '[]') as Diploma[]).some(d => d.id === id); } catch { return false; }
+  }
+
+  private savePublished(fn: (list: Diploma[]) => Diploma[]) {
+    try {
+      const list = JSON.parse(localStorage.getItem(PUBLISHED_KEY) ?? '[]') as Diploma[];
+      localStorage.setItem(PUBLISHED_KEY, JSON.stringify(fn(list)));
+    } catch { /* ignore */ }
   }
 
   area(id: string) { return this.areas().find(a => a.id === id); }

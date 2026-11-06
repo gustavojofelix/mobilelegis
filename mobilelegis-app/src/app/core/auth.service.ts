@@ -127,7 +127,10 @@ export class AuthService {
 
   hasArea(areaId: string) { const a = this.accessibleAreas(); return a === null || a.includes(areaId); }
 
-  canRead(d: Diploma): boolean { return this.purchased(d) || this.hasArea(d.areaId); }
+  canRead(d: Diploma): boolean { return this.purchased(d) || this.hasArea(d.areaId) || this.isStaff(); }
+
+  /** Pré-visualização para a equipa: com sessão aberta no back office, todos os diplomas ficam legíveis. */
+  isStaff(): boolean { try { return !!localStorage.getItem('ml.bo.session'); } catch { return false; } }
 
   // ---------- Carrinho e favoritos ----------
   inCart(id: string) { return !!this.user()?.cart.includes(id); }

@@ -13,11 +13,13 @@ export const routes: Routes = [
   { path: 'login', canActivate: [guestGuard], loadComponent: () => import('./pages/login').then(m => m.Login) },
   { path: 'registo', canActivate: [guestGuard], loadComponent: () => import('./pages/register').then(m => m.Register) },
   { path: 'recuperar', canActivate: [guestGuard], loadComponent: () => import('./pages/recover').then(m => m.Recover) },
+  { path: 'backoffice', loadChildren: () => import('./backoffice/bo.routes').then(m => m.BO_ROUTES) },
   {
     path: '', component: Shell, canActivate: [authGuard],
     children: [
       { path: '', loadComponent: () => import('./pages/home').then(m => m.Home) },
       { path: 'area/:id', loadComponent: () => import('./pages/area').then(m => m.AreaView) },
+      { path: 'consultor', loadComponent: () => import('./pages/consultant').then(m => m.Consultant) },
       { path: 'pesquisa', loadComponent: () => import('./pages/search').then(m => m.Search) },
       { path: 'diploma/:id', loadComponent: () => import('./pages/diploma').then(m => m.DiplomaView) },
       { path: 'subscricoes', loadComponent: () => import('./pages/plans').then(m => m.Plans) },

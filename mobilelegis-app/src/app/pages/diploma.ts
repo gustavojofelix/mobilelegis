@@ -128,7 +128,7 @@ interface Hit { article: Article; block: number; local: number; snippet: string;
               @for (a of s.articles; track a.id) {
                 <section class="art" [id]="a.id">
                   <p class="art-num">{{ 'diploma.article' | t }} {{ a.number }}</p>
-                  <p class="art-head">(<span [innerHTML]="html(a, 0)"></span>)</p>
+                  @if (a.heading) { <p class="art-head">(<span [innerHTML]="html(a, 0)"></span>)</p> }
                   @for (p of a.paragraphs; track $index) { <p class="lt-p" [innerHTML]="html(a, $index + 1)"></p> }
                   @if (a.note) { <p class="art-note">[{{ a.note }}]</p> }
                   @if (a.annex) { <p class="art-note">{{ 'diploma.annexNote' | t: { name: a.annex } }}</p> }
