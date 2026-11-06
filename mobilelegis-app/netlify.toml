@@ -1,0 +1,14 @@
+# Configuração de deploy no Netlify
+[build]
+  command = "npm run build"
+  # O Angular 17+ gera os ficheiros em dist/<projecto>/browser
+  publish = "dist/mobilelegis-app/browser"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Aplicação de página única: todas as rotas devolvem o index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
