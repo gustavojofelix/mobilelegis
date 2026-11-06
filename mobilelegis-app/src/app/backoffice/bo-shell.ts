@@ -4,6 +4,7 @@ import { I18N_PIPES } from '../core/pipes';
 import { LangSwitch } from '../shared/lang-switch';
 import { ThemeToggle } from '../shared/theme-toggle';
 import { BoService } from './bo.service';
+import { RadarService } from './radar.service';
 
 @Component({
   selector: 'bo-shell',
@@ -19,6 +20,8 @@ import { BoService } from './bo.service';
           <a routerLink="/backoffice" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"><i class="fa fa-th-large"></i> {{ 'bo.nav.dashboard' | t }}</a>
           <a routerLink="/backoffice/dossier/laci047" routerLinkActive="active"><i class="fa fa-magic"></i> {{ 'bo.nav.consolidation' | t }}
             @if (bo.state().started && !bo.state().publishedAt) { <span class="bo-nav-badge">1</span> }</a>
+          <a routerLink="/backoffice/radar" routerLinkActive="active"><i class="fa fa-rss"></i> {{ 'bo.nav.radar' | t }}
+            @if (radar.pending()) { <span class="bo-nav-badge">{{ radar.pending() }}</span> }</a>
           <a routerLink="/backoffice/diplomas" routerLinkActive="active"><i class="fa fa-book"></i> {{ 'bo.nav.diplomas' | t }}</a>
           <a routerLink="/backoffice/utilizadores" routerLinkActive="active"><i class="fa fa-users"></i> {{ 'bo.nav.users' | t }}</a>
         </nav>
@@ -46,6 +49,7 @@ import { BoService } from './bo.service';
 })
 export class BoShell {
   protected bo = inject(BoService);
+  protected radar = inject(RadarService);
   private router = inject(Router);
   protected navOpen = signal(false);
 

@@ -3,6 +3,7 @@ import { Router, RouterLink } from '@angular/router';
 import { I18N_PIPES } from '../core/pipes';
 import { BoardCard, BoardColumn } from './bo.models';
 import { BoService } from './bo.service';
+import { RadarService } from './radar.service';
 
 interface Card extends BoardCard { live?: boolean; }
 
@@ -24,6 +25,12 @@ interface Card extends BoardCard { live?: boolean; }
       <div class="bo-kpi"><i class="fa fa-check-circle"></i><div><b>{{ kpi().published }}</b><span>{{ 'bo.dash.kpiPublished' | t }}</span></div></div>
       <div class="bo-kpi ai"><i class="fa fa-bolt"></i><div><b>{{ kpi().pages }}</b><span>{{ 'bo.dash.kpiPages' | t }}</span></div></div>
     </div>
+
+    <a class="bo-radar-banner" routerLink="/backoffice/radar">
+      <i class="fa fa-rss"></i>
+      <span><b>{{ 'bo.nav.radar' | t }}</b> — @if (radar.pending()) { {{ 'bo.radar.bannerNew' | t: { n: radar.pending() } }} } @else { {{ 'bo.radar.bannerNone' | t: { d: (radar.lastSync() | dt: true) } }} }</span>
+      <i class="fa fa-angle-right"></i>
+    </a>
 
     <div class="bo-board">
       @for (col of columns; track col.id) {
@@ -73,6 +80,7 @@ interface Card extends BoardCard { live?: boolean; }
 })
 export class BoDashboard {
   protected bo = inject(BoService);
+  protected radar = inject(RadarService);
   private router = inject(Router);
   protected newOpen = signal(false);
 
@@ -90,7 +98,7 @@ export class BoDashboard {
     };
   });
 
-  private all = computed<Card[]>(() => [this.live(), ...(this.bo.board()?.dossiers ?? [])]);
+  private all = computed<Card[]>(() => [this.live(), ...this.radar.cards(), ...(this.bo.board()?.dossiers ?? [])]);
   cards(col: BoardColumn) { return this.all().filter(c => c.column === col); }
 
   protected kpi = computed(() => {

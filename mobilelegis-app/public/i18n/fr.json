@@ -137,7 +137,33 @@
     "area": "Domaine",
     "results": "{{n}} résultats",
     "clear": "Effacer",
-    "hits": "{{n}} occurrences"
+    "hits": "{{n}} occurrences",
+    "scopeLabel": "Rechercher dans",
+    "scope": {
+      "all": "Tout",
+      "title": "Titre et sommaire",
+      "text": "Texte des articles"
+    },
+    "modeLabel": "Correspondance",
+    "mode": {
+      "all": "Tous les mots",
+      "phrase": "Phrase exacte",
+      "any": "N’importe quel mot"
+    },
+    "adv": "Recherche avancée",
+    "advHide": "Masquer la recherche avancée",
+    "brNumber": "N° du BR",
+    "from": "Publié depuis",
+    "to": "Publié jusqu’au",
+    "inForceOn": "En vigueur le",
+    "inForceOnHint": "N’affiche que ce qui était en vigueur à cette date.",
+    "sortLabel": "Trier",
+    "sort": {
+      "relevance": "Pertinence",
+      "newest": "Plus récents",
+      "oldest": "Plus anciens"
+    },
+    "askAi": "Pas trouvé ? Posez la question avec vos mots au"
   },
   "plans": {
     "basic": "Offre Basique",
@@ -277,7 +303,8 @@
       "diplomas": "Textes",
       "users": "Utilisateurs",
       "openApp": "Ouvrir l'application",
-      "aiOn": "IA activée"
+      "aiOn": "IA activée",
+      "radar": "Radar BR"
     },
     "dash": {
       "title": "Tableau de bord",
@@ -449,6 +476,61 @@
       "purchases": "Achats",
       "created": "Inscription",
       "trial": "Période d'essai"
+    },
+    "radar": {
+      "title": "Radar BR",
+      "subtitle": "Collecte automatique des Bulletins de la République publiés par l’INM. L’IA lit, classe et relie chaque texte à la législation existante ; le juriste confirme.",
+      "syncNow": "Vérifier maintenant",
+      "reset": "Réinitialiser la démo",
+      "resetHint": "Retour à l’état avant la collecte de 06:00",
+      "lastSync": "Dernière collecte",
+      "pending": "À revoir",
+      "sla": "Du BR à la plateforme",
+      "sync": {
+        "s1": "Connexion au portail de l’INM…",
+        "s2": "Trouvé : BR n° 211, Série I, du 05.11.2026",
+        "s3": "Extraction du texte (45 pages)…",
+        "s4": "Séparation des textes et du sommaire…",
+        "s5": "Classement par domaine avec l’IA…",
+        "s6": "Recherche de liens avec la législation existante…"
+      },
+      "benchTitle": "Test d’actualité du 06.11.2026",
+      "benchText": "Résolution n° 89/2026 (BR n° 211, du 05.11.2026) : déjà disponible le lendemain sur…",
+      "benchOk": "publié",
+      "benchWait": "à publier",
+      "st": {
+        "new": "Nouveau",
+        "published": "Publié",
+        "ignored": "Ignoré",
+        "consolidation": "En consolidation"
+      },
+      "demoItem": "Exemple fictif",
+      "approved": "Approuvé le",
+      "p": {
+        "fetched": "Collecté auprès de l’INM",
+        "text": "Texte extrait · {{n}} p. · {{q}} %",
+        "classified": "Classé · {{n}} %",
+        "relations": "{{n}} lien(s)",
+        "review": "Revue humaine",
+        "published": "Dans l’application"
+      },
+      "classify": "Classement suggéré",
+      "confidence": "Confiance de l’IA : {{n}} %",
+      "newArea": "Suggestion : créer le domaine « {{name}} »",
+      "relations": "Liens détectés",
+      "altersTip": "Ce texte modifie un texte déjà présent sur la plateforme. Ouvrez la consolidation : les deux PDF sont déjà joints.",
+      "consolidate": "Publier et ouvrir la consolidation",
+      "publishOnly": "Publier seulement la fiche",
+      "publish": "Publier la fiche",
+      "ignore": "Ignorer",
+      "ignoredText": "Ignoré (non pertinent pour la base).",
+      "undo": "Annuler",
+      "publishedAt": "Publié le {{d}}",
+      "view": "Voir dans l’application",
+      "viewBoard": "Voir sur le tableau",
+      "note": "Prototype : la collecte est simulée avec des données réelles des BR n° 203 et 211 et un exemple fictif. En production, un service serveur consulte le portail de l’INM deux fois par jour.",
+      "bannerNew": "{{n}} nouveau(x) texte(s) détecté(s) au Bulletin — revoir maintenant",
+      "bannerNone": "rien à revoir · dernière collecte {{d}}"
     }
   },
   "ai": {
@@ -466,5 +548,42 @@
     "send": "Envoyer",
     "disclaimer": "Prototype. Ne remplace pas un conseil juridique.",
     "clear": "Effacer la conversation"
+  },
+  "dinfo": {
+    "card": "Fiche",
+    "related": "Législation associée",
+    "timeline": "Chronologie",
+    "type": "Type",
+    "issuer": "Organe émetteur",
+    "published": "Publication",
+    "series": "Série",
+    "seriesLabel": "Série du BR",
+    "page": "p.",
+    "inForce": "Entrée en vigueur",
+    "state": "État",
+    "area": "Domaine",
+    "descriptors": "Descripteurs",
+    "textPending": "Texte en traitement",
+    "pendingNotice": "Fiche publiée automatiquement à partir du Bulletin officiel. Le texte intégral consolidé est en préparation ; en attendant, consultez le PDF du BR.",
+    "brPdf": "PDF du BR original",
+    "cite": "Copier la citation",
+    "cited": "Citation copiée",
+    "facsimile": "Prototype : ce PDF est un fac-similé de démonstration. En production, c’est le BR officiel collecté auprès de l’INM.",
+    "noRelated": "Aucune législation associée enregistrée.",
+    "rel": {
+      "altera": "Modifie",
+      "alterado_por": "Modifié par",
+      "revoga": "Abroge",
+      "revogado_por": "Abrogé par",
+      "regulamenta": "Réglemente",
+      "regulamentado_por": "Réglementé par",
+      "ver_tambem": "Voir aussi"
+    },
+    "tl": {
+      "pub": "Publication",
+      "force": "Entrée en vigueur",
+      "amend": "Modifié par",
+      "revoke": "Abrogé par"
+    }
   }
 }

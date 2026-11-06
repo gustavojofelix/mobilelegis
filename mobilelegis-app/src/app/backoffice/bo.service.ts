@@ -334,7 +334,7 @@ export class BoService {
       sec.articles.push(art);
     }
     const amendments = this.timeline().filter(d => d.role === 'amendment').map(d => ({
-      diploma: `${d.title}, de ${longDatePt(d.date)}`, date: d.date,
+      diploma: `${d.title}, de ${longDatePt(d.date)}`, date: d.date, brPdf: BR_PDF[d.id],
       summary: k.ops.filter(o => o.doc === d.id && s.ops[o.id] === 'approved').map(o => o.summary).join('; ') || '—',
     }));
     return {
@@ -343,6 +343,15 @@ export class BoService {
       status: 'alterado', price: m.price, amendments,
       annexes: s.issues['i4'] === 'annex' ? ['Tabela de custas (art. 256.º)', 'Modelos n.º 1 a 21 e A a G'] : ['Modelos n.º 1 a 21 e A a G'],
       sections,
+      issuer: 'Ministério das Colónias',
+      br: { gazette: 'Boletim Oficial de Moçambique', number: '—', series: 'I', page: 1, date: m.date },
+      brPdf: 'br/dec-38088.pdf',
+      inForce: m.date, inForceRule: 'Nos termos do próprio decreto (extensão às províncias ultramarinas)',
+      descriptors: ['Execuções fiscais', 'Cobrança coerciva', 'Dívidas ao Estado'],
+      relations: [{ kind: 'ver_tambem', id: 'lei-32-2007' }],
     };
   }
 }
+
+/** PDFs reais dos diplomas de alteração do caso LACI047 (public/br). */
+const BR_PDF: Record<string, string> = { a1951: 'br/dec-38295.pdf', a1966: 'br/dec-46849.pdf', a2013: 'br/dl-1-2013.pdf' };

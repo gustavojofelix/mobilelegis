@@ -1,9 +1,14 @@
 import { inject } from '@angular/core';
 import { CanActivateFn, Router, Routes } from '@angular/router';
 import { BoService } from './bo.service';
+import { RadarService } from './radar.service';
 
 /** Carrega os dados do back office antes de entrar. */
-const boInit: CanActivateFn = async () => { await inject(BoService).init(); return true; };
+const boInit: CanActivateFn = async () => {
+  const bo = inject(BoService), radar = inject(RadarService);
+  await Promise.all([bo.init(), radar.init()]);
+  return true;
+};
 const boAuth: CanActivateFn = () => inject(BoService).admin() ? true : inject(Router).createUrlTree(['/backoffice/login']);
 const boGuest: CanActivateFn = () => inject(BoService).admin() ? inject(Router).createUrlTree(['/backoffice']) : true;
 
@@ -17,6 +22,7 @@ export const BO_ROUTES: Routes = [
         children: [
           { path: '', loadComponent: () => import('./bo-dashboard').then(m => m.BoDashboard) },
           { path: 'dossier/laci047', loadComponent: () => import('./bo-dossier').then(m => m.BoDossier) },
+          { path: 'radar', loadComponent: () => import('./bo-radar').then(m => m.BoRadar) },
           { path: 'diplomas', loadComponent: () => import('./bo-diplomas').then(m => m.BoDiplomas) },
           { path: 'utilizadores', loadComponent: () => import('./bo-users').then(m => m.BoUsers) },
         ],

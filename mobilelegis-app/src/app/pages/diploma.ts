@@ -9,13 +9,14 @@ import { Article } from '../core/models';
 import { I18N_PIPES } from '../core/pipes';
 import { findAll, highlight, snippet } from '../core/text';
 import { PaymentModal } from '../shared/payment-modal';
+import { DiplomaInfo } from '../shared/diploma-info';
 
 /** Uma ocorrência: artigo, bloco (0 = epígrafe, 1..n = parágrafos) e índice dentro do bloco. */
 interface Hit { article: Article; block: number; local: number; snippet: string; }
 
 @Component({
   selector: 'app-diploma',
-  imports: [FormsModule, RouterLink, PaymentModal, ...I18N_PIPES],
+  imports: [FormsModule, RouterLink, PaymentModal, DiplomaInfo, ...I18N_PIPES],
   template: `
     @if (diploma(); as d) {
       <div class="container narrow viewer">
@@ -48,6 +49,12 @@ interface Hit { article: Article; block: number; local: number; snippet: string;
               }
             </ol>
           </details>
+        }
+
+        <app-diploma-info [d]="d" />
+
+        @if (d.textPending) {
+          <div class="notice"><i class="fa fa-hourglass-half"></i> {{ 'dinfo.pendingNotice' | t }}</div>
         }
 
         @if (!canRead()) {

@@ -1,0 +1,155 @@
+{
+ "source": "Imprensa Nacional de Moçambique (INM) — portal do Boletim da República",
+ "schedule": "Todos os dias às 06:00 e às 18:00",
+ "lastSync": "2026-11-05T18:00:00",
+ "syncAt": "2026-11-06T06:00:00",
+ "items": [
+  {
+   "id": "r-dm-86-2026",
+   "wave": 0,
+   "status": "published",
+   "detectedAt": "2026-10-27T06:00:00",
+   "publishedAt": "2026-10-27T10:42:00",
+   "br": {
+    "gazette": "Boletim da República",
+    "number": "203",
+    "series": "I",
+    "page": 2133,
+    "date": "2026-10-26"
+   },
+   "type": "Diploma Ministerial",
+   "number": "86/2026",
+   "date": "2026-10-26",
+   "heading": "Diploma Ministerial n.º 86/2026, de 26 de Outubro",
+   "issuer": "Ministério da Administração Estatal e Função Pública",
+   "summary": "Aprova o Quadro de Pessoal do Instituto Nacional de Inspecção do Pescado, IP.",
+   "inForceRule": "Na data da sua publicação",
+   "inForce": "2026-10-26",
+   "approvedAt": "2023-11-17",
+   "descriptors": [
+    "Quadros de pessoal",
+    "Pescas",
+    "Institutos públicos"
+   ],
+   "suggest": {
+    "areaId": "civil-penal-adm",
+    "categoryId": "administrativa",
+    "subcategoryId": "procedimento-adm",
+    "confidence": 71
+   },
+   "relations": [
+    {
+     "kind": "ver_tambem",
+     "label": "Decreto n.º 18/2005 — Cria o Instituto Nacional de Inspecção do Pescado e aprova o respectivo Estatuto Orgânico"
+    }
+   ],
+   "ocr": 99,
+   "pages": 2,
+   "textReady": false,
+   "shortTitle": "Quadro de Pessoal do Instituto Nacional de Inspecção do Pescado, IP"
+  },
+  {
+   "id": "r-res-89-2026",
+   "wave": 1,
+   "status": "new",
+   "br": {
+    "gazette": "Boletim da República",
+    "number": "211",
+    "series": "I",
+    "page": 2235,
+    "date": "2026-11-05"
+   },
+   "type": "Resolução",
+   "number": "89/2026",
+   "date": "2026-11-05",
+   "heading": "Resolução n.º 89/2026, de 5 de Novembro",
+   "issuer": "Conselho de Ministros",
+   "summary": "Aprova a Estratégia Nacional de Alimentação Escolar, abreviadamente designada por ENAE (2026-2035).",
+   "inForceRule": "Na data da sua publicação",
+   "inForce": "2026-11-05",
+   "approvedAt": "2026-07-28",
+   "descriptors": [
+    "Crianças",
+    "Escolas",
+    "Políticas"
+   ],
+   "suggest": {
+    "areaId": "civil-penal-adm",
+    "categoryId": "administrativa",
+    "subcategoryId": "procedimento-adm",
+    "confidence": 58,
+    "newArea": "Educação"
+   },
+   "relations": [
+    {
+     "kind": "ver_tambem",
+     "label": "Lei n.º 18/2018, de 28 de Dezembro — Regime jurídico do Sistema Nacional de Educação"
+    }
+   ],
+   "ocr": 99,
+   "pages": 42,
+   "textReady": false,
+   "shortTitle": "Estratégia Nacional de Alimentação Escolar (ENAE 2026-2035)"
+  },
+  {
+   "id": "r-demo-lei-2026",
+   "wave": 1,
+   "status": "new",
+   "demo": true,
+   "br": {
+    "gazette": "Boletim da República",
+    "number": "211",
+    "series": "I",
+    "page": 2277,
+    "date": "2026-11-05"
+   },
+   "type": "Lei",
+   "number": "00/2026",
+   "date": "2026-11-05",
+   "heading": "Lei n.º 00/2026, de 5 de Novembro (exemplo fictício)",
+   "issuer": "Assembleia da República",
+   "summary": "Altera os artigos 2 e 3 da Lei n.º 3/2017, de 9 de Janeiro (Lei de Transacções Electrónicas). Exemplo de demonstração.",
+   "inForceRule": "30 dias após a sua publicação",
+   "inForce": "2026-12-05",
+   "descriptors": [
+    "Comércio electrónico",
+    "Assinatura electrónica"
+   ],
+   "suggest": {
+    "areaId": "tic",
+    "categoryId": "tic-cat",
+    "subcategoryId": "transaccoes-electronicas",
+    "confidence": 96
+   },
+   "relations": [
+    {
+     "kind": "altera",
+     "id": "lei-3-2017",
+     "note": "Nova redacção dos artigos 2 e 3"
+    }
+   ],
+   "ocr": 100,
+   "pages": 3,
+   "textReady": true,
+   "shortTitle": "Alteração à Lei de Transacções Electrónicas (exemplo fictício)",
+   "articles": [
+    {
+     "number": "1",
+     "heading": "Alteração",
+     "paragraphs": [
+      "Os artigos 2 e 3 da Lei n.º 3/2017, de 9 de Janeiro, passam a ter a seguinte redacção (texto de demonstração):",
+      "«Artigo 2 — Os documentos electrónicos têm o mesmo valor jurídico dos documentos em papel, desde que seja possível verificar a sua integridade e autoria.»",
+      "«Artigo 3 — A assinatura electrónica qualificada equivale à assinatura manuscrita.»"
+     ]
+    },
+    {
+     "number": "2",
+     "heading": "Entrada em vigor",
+     "paragraphs": [
+      "A presente Lei entra em vigor trinta dias após a sua publicação."
+     ]
+    }
+   ]
+  }
+ ]
+}

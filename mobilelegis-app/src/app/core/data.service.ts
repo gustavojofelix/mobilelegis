@@ -1,7 +1,7 @@
 import { Injectable, inject, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { Area, Article, Diploma, Plan, User, Voucher } from './models';
+import { Area, Article, Diploma, Plan, Relation, RelationKind, User, Voucher } from './models';
 
 const PUBLISHED_KEY = 'ml.bo.published';
 
@@ -59,6 +59,34 @@ export class DataService {
   area(id: string) { return this.areas().find(a => a.id === id); }
   diploma(id: string) { return this.diplomas().find(d => d.id === id); }
   articles(d: Diploma): Article[] { return d.sections.flatMap(s => s.articles); }
+  /**
+   * Legislação associada: relações declaradas + derivadas (alterações, revogação)
+   * + inversas (se A altera B, B fica "alterado por A").
+   */
+  relations(d: Diploma): Relation[] {
+    const INV: Record<RelationKind, RelationKind> = {
+      altera: 'alterado_por', alterado_por: 'altera', revoga: 'revogado_por', revogado_por: 'revoga',
+      regulamenta: 'regulamentado_por', regulamentado_por: 'regulamenta', ver_tambem: 'ver_tambem',
+    };
+    const out: Relation[] = [...(d.relations ?? [])];
+    d.amendments.forEach(a => {
+      const id = a.id && this.diploma(a.id) ? a.id : this.diplomas().find(o => o.heading === a.diploma)?.id;
+      out.push({ kind: 'alterado_por', id, label: id ? undefined : a.diploma, note: a.summary, pdf: a.brPdf });
+    });
+    if (d.revokedBy) out.push({ kind: 'revogado_por', id: d.revokedBy });
+    for (const o of this.diplomas()) {
+      if (o.id === d.id) continue;
+      (o.relations ?? []).filter(r => r.id === d.id).forEach(r => out.push({ kind: INV[r.kind], id: o.id, note: r.note }));
+      if (o.revokedBy === d.id) out.push({ kind: 'revoga', id: o.id });
+    }
+    const seen = new Set<string>();
+    return out.filter(r => {
+      const k = r.kind + '|' + (r.id ?? r.label);
+      if (seen.has(k)) return false;
+      seen.add(k); return true;
+    });
+  }
+
   diplomasIn(areaId: string, categoryId: string, subcategoryId: string) {
     return this.diplomas().filter(d => d.areaId === areaId && d.categoryId === categoryId && d.subcategoryId === subcategoryId);
   }

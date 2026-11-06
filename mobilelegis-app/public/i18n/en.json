@@ -137,7 +137,33 @@
     "area": "Area",
     "results": "{{n}} results",
     "clear": "Clear",
-    "hits": "{{n}} matches"
+    "hits": "{{n}} matches",
+    "scopeLabel": "Search in",
+    "scope": {
+      "all": "Everything",
+      "title": "Title and summary",
+      "text": "Article text"
+    },
+    "modeLabel": "Matching",
+    "mode": {
+      "all": "All words",
+      "phrase": "Exact phrase",
+      "any": "Any word"
+    },
+    "adv": "Advanced search",
+    "advHide": "Hide advanced search",
+    "brNumber": "Gazette no.",
+    "from": "Published from",
+    "to": "Published until",
+    "inForceOn": "In force on",
+    "inForceOnHint": "Shows only what was in force on that date.",
+    "sortLabel": "Sort",
+    "sort": {
+      "relevance": "Relevance",
+      "newest": "Newest",
+      "oldest": "Oldest"
+    },
+    "askAi": "Not found? Ask in your own words with the"
   },
   "plans": {
     "basic": "Basic Plan",
@@ -277,7 +303,8 @@
       "diplomas": "Legal acts",
       "users": "Users",
       "openApp": "Open the app",
-      "aiOn": "AI enabled"
+      "aiOn": "AI enabled",
+      "radar": "Gazette Radar"
     },
     "dash": {
       "title": "Dashboard",
@@ -449,6 +476,61 @@
       "purchases": "Purchases",
       "created": "Registered",
       "trial": "Trial period"
+    },
+    "radar": {
+      "title": "Gazette Radar",
+      "subtitle": "Automatic collection of the Official Gazettes published by INM. AI reads, classifies and links each act to existing legislation; the lawyer confirms.",
+      "syncNow": "Check now",
+      "reset": "Reset demo",
+      "resetHint": "Back to the state before the 06:00 run",
+      "lastSync": "Last run",
+      "pending": "To review",
+      "sla": "From gazette to platform",
+      "sync": {
+        "s1": "Connecting to the INM portal…",
+        "s2": "Found: Gazette no. 211, Series I, 05.11.2026",
+        "s3": "Extracting text (45 pages)…",
+        "s4": "Splitting acts and summary…",
+        "s5": "Classifying by area with AI…",
+        "s6": "Looking for links to existing legislation…"
+      },
+      "benchTitle": "Freshness test, 06.11.2026",
+      "benchText": "Resolution no. 89/2026 (Gazette no. 211, 05.11.2026): already available the next day on…",
+      "benchOk": "published",
+      "benchWait": "not yet published",
+      "st": {
+        "new": "New",
+        "published": "Published",
+        "ignored": "Ignored",
+        "consolidation": "Being consolidated"
+      },
+      "demoItem": "Fictional example",
+      "approved": "Approved on",
+      "p": {
+        "fetched": "Collected from INM",
+        "text": "Text extracted · {{n}} pp. · {{q}}%",
+        "classified": "Classified · {{n}}%",
+        "relations": "{{n}} link(s)",
+        "review": "Human review",
+        "published": "In the app"
+      },
+      "classify": "Suggested classification",
+      "confidence": "AI confidence: {{n}}%",
+      "newArea": "Suggestion: create the “{{name}}” area",
+      "relations": "Links detected",
+      "altersTip": "This act amends one already on the platform. Open the consolidation: both PDFs are attached for you.",
+      "consolidate": "Publish and open consolidation",
+      "publishOnly": "Publish record only",
+      "publish": "Publish record",
+      "ignore": "Ignore",
+      "ignoredText": "Ignored (not relevant for the database).",
+      "undo": "Undo",
+      "publishedAt": "Published on {{d}}",
+      "view": "View in the app",
+      "viewBoard": "View on the board",
+      "note": "Prototype: collection is simulated with real data from Gazettes no. 203 and 211 plus one fictional example. In production a server job checks the INM portal twice a day.",
+      "bannerNew": "{{n}} new act(s) detected in the Official Gazette — review now",
+      "bannerNone": "nothing to review · last run {{d}}"
     }
   },
   "ai": {
@@ -466,5 +548,42 @@
     "send": "Send",
     "disclaimer": "Prototype. Not a substitute for legal advice.",
     "clear": "Clear conversation"
+  },
+  "dinfo": {
+    "card": "Record",
+    "related": "Related legislation",
+    "timeline": "Timeline",
+    "type": "Type",
+    "issuer": "Issuing body",
+    "published": "Publication",
+    "series": "Series",
+    "seriesLabel": "Gazette series",
+    "page": "p.",
+    "inForce": "Entry into force",
+    "state": "Status",
+    "area": "Area",
+    "descriptors": "Descriptors",
+    "textPending": "Text being processed",
+    "pendingNotice": "Record published automatically from the Official Gazette. The full consolidated text is being prepared; meanwhile, see the gazette PDF.",
+    "brPdf": "Original gazette PDF",
+    "cite": "Copy citation",
+    "cited": "Citation copied",
+    "facsimile": "Prototype: this PDF is a demo facsimile. In production it is the official gazette collected from INM.",
+    "noRelated": "No related legislation recorded.",
+    "rel": {
+      "altera": "Amends",
+      "alterado_por": "Amended by",
+      "revoga": "Repeals",
+      "revogado_por": "Repealed by",
+      "regulamenta": "Regulates",
+      "regulamentado_por": "Regulated by",
+      "ver_tambem": "See also"
+    },
+    "tl": {
+      "pub": "Publication",
+      "force": "Entry into force",
+      "amend": "Amended by",
+      "revoke": "Repealed by"
+    }
   }
 }

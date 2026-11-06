@@ -25,7 +25,14 @@ export interface Article {
 
 export interface Section { heading: string; articles: Article[]; }
 
-export interface Amendment { diploma: string; date: string; summary: string; }
+export interface Amendment { diploma: string; date: string; summary: string; id?: string; brPdf?: string; }
+
+/** Publicação no Boletim da República (ou Boletim Oficial, antes de 1975). */
+export interface BrRef { gazette: string; number: string; series: string; page: number; date: string; }
+
+export type RelationKind = 'altera' | 'alterado_por' | 'revoga' | 'revogado_por' | 'regulamenta' | 'regulamentado_por' | 'ver_tambem';
+/** Legislação associada: `id` quando o diploma existe na plataforma, senão `label`. */
+export interface Relation { kind: RelationKind; id?: string; label?: string; note?: string; pdf?: string; }
 
 export interface Diploma {
   id: string;
@@ -45,6 +52,14 @@ export interface Diploma {
   amendments: Amendment[];
   annexes: string[];
   sections: Section[];
+  issuer?: string;        // entidade emitente
+  br?: BrRef;
+  brPdf?: string;         // PDF do BR original (caminho em public/)
+  inForce?: string;       // data de entrada em vigor
+  inForceRule?: string;   // cláusula de entrada em vigor
+  descriptors?: string[];
+  relations?: Relation[];
+  textPending?: boolean;  // ficha publicada pelo Radar BR; texto integral ainda em tratamento
 }
 
 export interface Device {

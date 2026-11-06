@@ -137,7 +137,33 @@
     "area": "Área",
     "results": "{{n}} resultados",
     "clear": "Limpar",
-    "hits": "{{n}} ocorrências"
+    "hits": "{{n}} ocorrências",
+    "scopeLabel": "Pesquisar em",
+    "scope": {
+      "all": "Tudo",
+      "title": "Título e sumário",
+      "text": "Texto dos artigos"
+    },
+    "modeLabel": "Correspondência",
+    "mode": {
+      "all": "Todas as palavras",
+      "phrase": "Frase exacta",
+      "any": "Qualquer palavra"
+    },
+    "adv": "Pesquisa avançada",
+    "advHide": "Esconder pesquisa avançada",
+    "brNumber": "N.º do BR",
+    "from": "Publicado desde",
+    "to": "Publicado até",
+    "inForceOn": "Em vigor em",
+    "inForceOnHint": "Mostra só o que estava em vigor nessa data.",
+    "sortLabel": "Ordenar",
+    "sort": {
+      "relevance": "Relevância",
+      "newest": "Mais recentes",
+      "oldest": "Mais antigos"
+    },
+    "askAi": "Não encontrou? Faça a pergunta por palavras suas ao"
   },
   "plans": {
     "basic": "Plano Básico",
@@ -277,7 +303,8 @@
       "diplomas": "Diplomas",
       "users": "Utilizadores",
       "openApp": "Abrir a aplicação",
-      "aiOn": "IA activa"
+      "aiOn": "IA activa",
+      "radar": "Radar BR"
     },
     "dash": {
       "title": "Painel",
@@ -449,6 +476,61 @@
       "purchases": "Compras",
       "created": "Registo",
       "trial": "Período de teste"
+    },
+    "radar": {
+      "title": "Radar BR",
+      "subtitle": "Recolha automática dos Boletins da República publicados pela INM. A IA lê, classifica e liga cada diploma à legislação existente; o jurista confirma.",
+      "syncNow": "Verificar agora",
+      "reset": "Repor demo",
+      "resetHint": "Volta ao estado anterior à recolha das 06:00",
+      "lastSync": "Última recolha",
+      "pending": "Por rever",
+      "sla": "Do BR à plataforma",
+      "sync": {
+        "s1": "A ligar ao portal da INM…",
+        "s2": "Encontrado: BR n.º 211, I Série, de 05.11.2026",
+        "s3": "A extrair o texto (45 páginas)…",
+        "s4": "A separar os diplomas e o sumário…",
+        "s5": "A classificar por área com IA…",
+        "s6": "A procurar relações com a legislação existente…"
+      },
+      "benchTitle": "Teste de actualidade de 06.11.2026",
+      "benchText": "Resolução n.º 89/2026 (BR n.º 211, de 05.11.2026): já disponível no dia seguinte em…",
+      "benchOk": "publicado",
+      "benchWait": "por publicar",
+      "st": {
+        "new": "Novo",
+        "published": "Publicado",
+        "ignored": "Ignorado",
+        "consolidation": "Em consolidação"
+      },
+      "demoItem": "Exemplo fictício",
+      "approved": "Aprovado em",
+      "p": {
+        "fetched": "Recolhido da INM",
+        "text": "Texto extraído · {{n}} pág. · {{q}}%",
+        "classified": "Classificado · {{n}}%",
+        "relations": "{{n}} relação(ões)",
+        "review": "Revisão humana",
+        "published": "Na aplicação"
+      },
+      "classify": "Classificação sugerida",
+      "confidence": "Confiança da IA: {{n}}%",
+      "newArea": "Sugestão: criar a área «{{name}}»",
+      "relations": "Relações detectadas",
+      "altersTip": "Este diploma altera um diploma que já existe na plataforma. Abra a consolidação: os dois PDF já ficam anexados.",
+      "consolidate": "Publicar e abrir consolidação",
+      "publishOnly": "Só publicar a ficha",
+      "publish": "Publicar ficha",
+      "ignore": "Ignorar",
+      "ignoredText": "Ignorado (não é relevante para a base).",
+      "undo": "Desfazer",
+      "publishedAt": "Publicado em {{d}}",
+      "view": "Ver na aplicação",
+      "viewBoard": "Ver no quadro",
+      "note": "Protótipo: a recolha é simulada com dados reais do BR n.º 203 e n.º 211 e um exemplo fictício. Na versão final, um serviço no servidor consulta o portal da INM duas vezes por dia.",
+      "bannerNew": "{{n}} diploma(s) novo(s) detectado(s) no Boletim da República — rever agora",
+      "bannerNone": "sem novidades por rever · última recolha {{d}}"
     }
   },
   "ai": {
@@ -466,5 +548,42 @@
     "send": "Enviar",
     "disclaimer": "Protótipo. Não substitui aconselhamento jurídico.",
     "clear": "Limpar conversa"
+  },
+  "dinfo": {
+    "card": "Ficha",
+    "related": "Legislação associada",
+    "timeline": "Linha do tempo",
+    "type": "Tipo",
+    "issuer": "Entidade emitente",
+    "published": "Publicação",
+    "series": "Série",
+    "seriesLabel": "Série do BR",
+    "page": "pág.",
+    "inForce": "Entrada em vigor",
+    "state": "Estado",
+    "area": "Área",
+    "descriptors": "Descritores",
+    "textPending": "Texto em tratamento",
+    "pendingNotice": "Ficha publicada automaticamente a partir do Boletim da República. O texto integral consolidado está a ser preparado; até lá, consulte o PDF do BR.",
+    "brPdf": "PDF do BR original",
+    "cite": "Copiar citação",
+    "cited": "Citação copiada",
+    "facsimile": "Protótipo: este PDF é um fac-símile de demonstração. Na versão final, é o BR oficial recolhido da INM.",
+    "noRelated": "Sem legislação associada registada.",
+    "rel": {
+      "altera": "Altera",
+      "alterado_por": "Alterado por",
+      "revoga": "Revoga",
+      "revogado_por": "Revogado por",
+      "regulamenta": "Regulamenta",
+      "regulamentado_por": "Regulamentado por",
+      "ver_tambem": "Ver também"
+    },
+    "tl": {
+      "pub": "Publicação",
+      "force": "Entrada em vigor",
+      "amend": "Alterado por",
+      "revoke": "Revogado por"
+    }
   }
 }
