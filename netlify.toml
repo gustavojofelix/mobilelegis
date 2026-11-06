@@ -1,0 +1,15 @@
+# A aplicação Angular está na subpasta mobilelegis-app
+[build]
+  base = "mobilelegis-app"
+  command = "npm run build"
+  # relativo à pasta base
+  publish = "dist/mobilelegis-app/browser"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Aplicação de página única: todas as rotas devolvem o index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
